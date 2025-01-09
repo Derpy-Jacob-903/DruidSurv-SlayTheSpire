@@ -1,0 +1,90 @@
+{
+  "${ModID}:TodoItem": {
+    "NAME": "Druidic Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, draw 2 fewer cards. NL Up to #b",
+      " Energy is now conserved between turns. NL Playing Monkeys, Basic Bloons, and Basic cards grants an additional card next turn. NL Retain Monkeys in your hand."
+    ]
+  },
+  "${ModID}:TodoItemPro": {
+    "NAME": "Heroic Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain 2 energy and draw 2 fewer cards. NL Up to #b",
+      " Energy is now conserved between turns. NL Retain Bloons in your hand."
+    ]
+  },
+  "${ModID}:BloonTrap": {
+    "NAME": "Bloon Trap",
+    "FLAVOR": "A bloon containment device created by top Monkey Engineers...",
+    "DESCRIPTIONS": [
+      "Gain Gold when Bloons are exhausted. 0 and 1 cost Bloons gain Ethereal."
+    ]
+  },
+  "${ModID}:Becquerel": {
+    "NAME": "Wolf Plush",
+    "FLAVOR": "Good dog. Best friend.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add a Wolf to your hand."
+    ]
+  },
+  "${ModID}:FutureCrystal": {
+    "NAME": "Cue Ball",
+    "FLAVOR": "See into the future and sabotage incoming bloons.",
+    "DESCRIPTIONS": [
+      "Your Large Bloons are 25% weaker, but gain 1 energy when a Large Bloon is played."
+    ]
+  },
+  "${ModID}:Watch": {
+    "NAME": "Delicate Watch",
+    "FLAVOR": "I'm going to rub it in your face SO HARD when that thing inevitably breaks..",
+    "DESCRIPTIONS": [
+      "Increase damage by #b20%. Taking damage to below 25% health #rbreaks this relic."
+    ]
+  },
+  "${ModID}:APRounds": {
+    "NAME": "Armor-Piercing Rounds",
+    "FLAVOR": "..these rounds are supposed to pierce armor. Not pierce through the armor, five feet of reinforced concrete, a few warehouses, and an armored truck.",
+    "DESCRIPTIONS": [
+      "Increase damage by #b20%."
+    ]
+  },
+  "${ModID}:BigSpicy": {
+    "NAME": "Ignition Tank",
+    "FLAVOR": "Contains a cocktail of the galaxy's most flammable substances.",
+    "DESCRIPTIONS": [
+      "#y${modID}:On-fire effects deals #b9 more damage.",
+      "#ypokemonmaster:Burned deals #bquadruple damage.",
+      "NL #r..But #rBurn(+) deals #b6(12) more damage."
+    ]
+  },
+  "${ModID}:PSG": {
+    "NAME": "Personal Shield Generator",
+    "FLAVOR": "Gain a recharging shield.",
+    "DESCRIPTIONS": [
+      ""
+    ]
+  },
+  "${ModID}:OWS": {
+    "NAME": "Old War Stealthkit",
+    "FLAVOR": "..prototype stealthkit in fantastic condition..",
+    "DESCRIPTIONS": [
+      ""
+    ]
+  },
+  "${ModID}:ATG": {
+    "NAME": "AtG Missile Mk. 1",
+    "FLAVOR": "..shoulder-mounted missile launcher.. loaded with AtG Viper Missiles...",
+    "DESCRIPTIONS": [
+      ""
+    ]
+  },
+  "${ModID}:Spine": {
+    "NAME": "Mercurial Rachis",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "EVERYONE deals #b20% more damage"
+    ]
+  }
+}

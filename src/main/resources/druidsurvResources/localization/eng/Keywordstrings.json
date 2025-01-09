@@ -1,0 +1,81 @@
+[
+  {
+    "PROPER_NAME": "TODO",
+    "NAMES": [
+      "todo",
+      "todos"
+    ],
+    "DESCRIPTION": "TODO: Make your own epic keywords"
+  },
+  {
+     "PROPER_NAME": "SUPPORTED",
+     "NAMES": [
+       "supported"
+     ],
+     "DESCRIPTION": "Healing from The Druid's cards and powers is reduced by #b10% per stack."
+  },
+  {
+     "PROPER_NAME": "RELOAD",
+     "NAMES": [
+       "reload",
+       "reloads"
+     ],
+     "DESCRIPTION": "#yExhaust this card when played. NL At the start of your next the turn, move #bX cards with #yReload from the exhaust pile into your discard pile."
+  },
+  {
+     "PROPER_NAME": "PICK",
+     "NAMES": [
+       "pick"
+     ],
+     "DESCRIPTION": "Look at the top #bX cards of your draw pile. Draw #bone of them, and the other cards are moved the bottom of your draw pile."
+  },
+  {
+     "PROPER_NAME": "PRIZED",
+     "NAMES": [
+       "prized"
+     ],
+     "DESCRIPTION": "Take an additional #bX damage from the next unblocked attack."
+  },
+  {
+     "PROPER_NAME": "ON FIRE",
+     "NAMES": [
+       "on fire",
+       "on_fire",
+       "onfire"
+     ],
+     "DESCRIPTION": "Enemies #yon #yfire take #b9 damage at the start of it's turn."
+  },
+  {
+     "PROPER_NAME": "THORN",
+     "NAMES": [
+       "thornkind",
+       "thornkinds"
+     ],
+     "DESCRIPTION": "Hits twice in Wrath instead of dealing double damage."
+  },
+  {
+     "PROPER_NAME": "MULTIHIT",
+     "NAMES": [
+       "multi-hit"
+     ],
+     "DESCRIPTION": "Damage dealt by this attack to any target except your initial target ignores your Strength."
+  },
+  {
+     "PROPER_NAME": "BLOONSEND",
+     "NAMES": [
+       "bloon send",
+       "bloon_send",
+       "bloon_sends"
+     ],
+     "DESCRIPTION": "Deals damage after a delay. Damage dealt by the target before this hits reduces the damage."
+  },
+  {
+     "PROPER_NAME": "BLOONALLY",
+     "NAMES": [
+       "Ally bloon send",
+       "bloon_send",
+       "bloon_sends"
+     ],
+     "DESCRIPTION": "Deals damage after a delay. Damage dealt by the target before this hits reduces the damage."
+  }
+]

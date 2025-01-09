@@ -1,0 +1,228 @@
+{
+  "druidsurv:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "#y${modID}:Thornkind. Deal !D! damage."
+  },
+  "druidsurv:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "druidsurv:DartMonkey": {
+    "NAME": "Dart Monkey",
+    "DESCRIPTION": "Strike. Dartkind. Deal !D! damage."
+  },
+  "druidsurv:Huntress": {
+    "NAME": "Huntress Monkey",
+    "DESCRIPTION": "Strike. Deal !D! damage."
+  },
+  "druidsurv:DartMonkeyTwins": {
+    "NAME": "Dart Monkey Twins",
+    "DESCRIPTION": "#yDartkind. Deal !D! damage, add two Dart Monkey Twin to your hand. Exhaust."
+  },
+  "druidsurv:DartMonkeyTwin": {
+    "NAME": "Dart Monkey Twin",
+    "DESCRIPTION": "#yDartkind. Deal !D! damage."
+  },
+  "druidsurv:GlaiveRicochet": {
+    "NAME": "Glaive Ricochet",
+    "DESCRIPTION": "Deal !D! damage and deal !druidsurv:sd! damage to ALL OTHER enemies, !M! times"
+  },
+  "druidsurv:BlueBloon": {
+    "NAME": "Blue Bloon",
+    "DESCRIPTION": "Gain !B! Block. Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:Boomerang": {
+    "NAME": "Boomerang Monkey",
+    "DESCRIPTION": "Deal !D! damage and deal !druidsurv:sd! damage to another enemy."
+  },
+  "druidsurv:Mortar": {
+    "NAME": "Mortar Monkey",
+    "DESCRIPTION": "Deal !D! damage to a random enemy."
+  },
+  "druidsurv:SpicyMortar": {
+    "NAME": "Burny Stuff Mortar",
+    "DESCRIPTION": "Deal !D! damage to a random enemy. It is set #y${modID}:On_Fire."
+  },
+  "druidsurv:OliveBloon": {
+    "NAME": "Olive Bloon",
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:PinkBloon": {
+    "NAME": "Pink Bloon",
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. Deal !D! damage at the end of your turn."
+  },
+  "druidsurv:RedBloon": {
+    "NAME": "Red Bloon",
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:Restock": {
+    "NAME": "Restock",
+    "DESCRIPTION": "Draw !M! cards."
+  },
+  "druidsurv:RustedKey": {
+    "NAME": "Rusted Key",
+    "DESCRIPTION": "Gain a random cards."
+  },
+  "druidsurv:SuperMonkey": {
+    "NAME": "Super Monkey",
+    "DESCRIPTION": "#yEthereal. #y${modID}:Prized. Deal !D! damage 3 times."
+  },
+  "druidsurv:SupplyDrop": {
+    "NAME": "Supply Drop",
+    "DESCRIPTION": "Draw !M! cards."
+  },
+  "druidsurv:TackShooter": {
+    "NAME": "Tack Shooter",
+    "DESCRIPTION": "Deal !D! damage twice."
+  },
+  "druidsurv:TripleDart": {
+    "NAME": "Triple Dart",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "druidsurv:WhiteBloon": {
+    "NAME": "White Bloon",
+    "DESCRIPTION": "Draw !M! cards."
+  },
+  "druidsurv:YellowBloon": {
+    "NAME": "Yellow Bloon",
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:GreenBloon": {
+    "NAME": "Green Bloon",
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:UndeadBloon": {
+    "NAME": "Undead Bloon",
+    "DESCRIPTION": "Deal !D! damage at the end of your next turn. Exhaust."
+  },
+  "druidsurv:Necromancer": {
+    "NAME": "Necromancer",
+    "DESCRIPTION": "Add a Undead Bloon "
+  },
+  "druidsurv:CeramicBloon": {
+    "NAME": "Ceramic Bloon",
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage after 2 turns."
+  },
+  "druidsurv:RainbowBloon": {
+    "NAME": "Rainbow Bloon",
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:Crossbow": {
+    "NAME": "Crossbow Monkey",
+    "DESCRIPTION": "Deal !D!*2 damage, then deal !D! damage twice."
+  },
+  "druidsurv:SharpShooter": {
+    "NAME": "Sharp Shooter",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:Sniper": {
+    "NAME": "Sharp Shooter",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:Strengthenator": {
+    "NAME": "Strengthenator",
+    "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  },
+  "druidsurv:WizardMonkey": {
+    "NAME": "Wizard Monkey",
+    "DESCRIPTION": "#y${modID}:Prized. Deal !D! damage. At the start of your turn, increase this card's damage by !M! for this combat."
+  },
+  "druidsurv:QuincyActionFigure": {
+    "NAME": "Quincy Action Figure",
+    "DESCRIPTION": "Gain [R][R][R] when exuasted."
+  },
+  "druidsurv:ArchersInstinct": {
+    "NAME": "Archer's Instinct",
+    "DESCRIPTION": "Pick 3. NL If it's a Monkey, it gains +!M! Attack Power",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand."
+    ]
+  },
+  "druidsurv:NaturesClarity": {
+    "NAME": "Nature's Clarity",
+    "DESCRIPTION": "Pick 4. NL Gain !M! Mana Shield per [R] cost of picked card",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand."
+    ]
+  },
+  "druidsurv:Divination": {
+    "NAME": "Divination",
+    "DESCRIPTION": "Pick 3. NL If it's a Monkey, gain !M! Strength",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand."
+    ]
+  },
+  "druidsurv:HeartThunder": {
+    "NAME": "Heart of Thunder",
+    "DESCRIPTION": "Deal !D! damage. Channel !M! Lightning."
+  },
+  "druidsurv:JunglesBounty": {
+    "NAME": "Jungle's Bounty Druid",
+    "DESCRIPTION": "When you gain [R], Heal !M! HP, lose !M! focus, and gain 1 Supported."
+  },
+  "druidsurv:DruidCard": {
+    "NAME": "Druid",
+    "DESCRIPTION": "Heal !M! HP, and gain 1 Supported. NL "
+  },
+  "druidsurv:FuckYou": {
+    "NAME": "Heart of Vengeance Druid",
+    "DESCRIPTION": "Add 2 Vengeful Thorn to your hand. When attacked, increase every copy of Vengeful Thorn's damage by !M! this combat."
+  },
+  "druidsurv:FuckYouThorn": {
+    "NAME": "Vengeful Thorn",
+    "DESCRIPTION": "Thornkind. Deal 7 damage."
+  },
+  "druidsurv:ExampleTwoAmountPowerCard": {
+    "NAME": "Two Amount Power",
+    "DESCRIPTION": "At the start of your turn, gain !M! Strength and !druidsurv:m2! Dexterity."
+  },
+  "druidsurv:InlinePowerDemo": {
+    "NAME": "Inline Power",
+    "DESCRIPTION": "Strikes deal !M! more damage. NL At the end of your turn, gain !M! Block.",
+    "EXTENDED_DESCRIPTION": [
+      "Strike+, Block+",
+      "#yStrikes deal #b",
+      " additional damage. At the end of your turn, gain #b",
+      " #yBlock."
+    ]
+  },
+  "druidsurv:SelectCardsPlusCardMods": {
+    "NAME": "Cool Card Stuff",
+    "DESCRIPTION": "Choose from 1 of 3 cost 0 cards from any class. NL Add it into your hand. NL It gains Ethereal and Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand with Ethereal and Exhaust."
+    ]
+  },
+  "druidsurv:EasyXCostDemo": {
+    "NAME": "Easy X Cost",
+    "DESCRIPTION": "{@@}Deal !D! damage X{!M!|>0=+!M!} times. NL Gain X{!M!|>0=+!M!} Strength. NL Exhaust."
+  },
+  "druidsurv:EasyModalChoiceDemo": {
+    "NAME": "Easy Modal Choice",
+    "DESCRIPTION": "Choose one: Draw !M! cards or gain !druidsurv:m2! Strength.",
+    "EXTENDED_DESCRIPTION": [
+      "Draw",
+      "Draw ",
+      " cards.",
+      "Strength",
+      "Gain ",
+      " Strength."
+    ]
+  },
+  "druidsurv:DrawAndShiv": {
+    "NAME": "Draw and Shiv",
+    "DESCRIPTION": "Draw 1 card. NL Add 1 *Shiv into your hand."
+  },
+  "druidsurv:TwoTypesOfDamage": {
+    "NAME": "Two Damage Values",
+    "DESCRIPTION": "Deal !D! damage. NL If you're Vulnerable, deal !druidsurv:sd! damage instead."
+  },
+  "druidsurv:StartupBlockCard": {
+    "NAME": "Startup And AOE",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Startup: Gain !M! Block."
+  },
+  "druidsurv:MultiCardPreviewAndDrawCallback": {
+    "NAME": "Previews and Callbacks",
+    "DESCRIPTION": "{@@}Shuffle *Smite{!Upgrades!|>0=+} and *Safety{!Upgrades!|>0=+} into your draw pile. NL Draw 1 card. NL If it's Colorless, deal !D! damage to ALL enemies."
+  }
+}

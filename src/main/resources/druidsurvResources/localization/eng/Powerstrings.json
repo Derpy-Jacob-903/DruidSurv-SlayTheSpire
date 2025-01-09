@@ -1,0 +1,91 @@
+{
+  "${ModID}:ExampleTwoAmountPower": {
+    "NAME": "Example 2",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #yStrength and #b",
+      " #yDexterity."
+    ]
+  }, 
+  "${ModID}:0DelayBloon": {
+    "NAME": "0 Delay Bloon",
+    "DESCRIPTIONS": [
+      "At the start of it's turn, it takes #b",
+      " damage. Whenever you receive attack damage from it, remove that much this."
+    ]
+  }, 
+  "${ModID}:1DelayBloon": {
+    "NAME": "1 Delay Bloon",
+    "DESCRIPTIONS": [
+      "At the start of it's next turn, it takes #b",
+      " damage. Whenever you receive attack damage from it, remove that much this."
+    ]
+  }, 
+  "${ModID}:2DelayBloon": {
+    "NAME": "2 Delay Bloon",
+    "DESCRIPTIONS": [
+      "In #b2 turns, it takes #b",
+      " damage. Whenever you receive attack damage from it, remove that much this."
+    ]
+  }, 
+  "${ModID}:3DelayBloon": {
+    "NAME": "3 Delay Bloon",
+    "DESCRIPTIONS": [
+      "In #b3 turns, it takes #b",
+      " damage. Whenever you receive attack damage from it, remove that much this."
+    ]
+  },
+  "${ModID}:4DelayBloon": {
+    "NAME": "4 Delay Bloon",
+    "DESCRIPTIONS": [
+      "In #b4 turns, it takes #b",
+      " damage. Whenever you receive attack damage from it, remove that much this."
+    ]
+  },
+  "${ModID}:5DelayBloon": {
+    "NAME": "5 Delay Bloon",
+    "DESCRIPTIONS": [
+      "In #b5 turns, it takes #b",
+      " damage. Whenever you receive attack damage from it, remove that much this."
+    ]
+  },
+  "${ModID}:umDelayBloon": {
+    "NAME": "0 Delay Bloon",
+    "DESCRIPTIONS": [
+      "At the start of it's turn, it takes #b",
+      " damage. Whenever you receive attack damage from it, remove that much this."
+    ]
+  },
+  "${ModID}:WeakBloonPower": {
+    "NAME": "Weakening Gas",
+    "DESCRIPTIONS": [
+      "When attacked, the attacker is Weakened. Whenever you receive attack damage, remove that much this. Lose #b15 this at the start of your turn. Health: #b"
+    ]
+  },
+  "${ModID}:GrowthGas": {
+    "NAME": "Growth Gas",
+    "DESCRIPTIONS": [
+      "When attacked, and if the attacker has Bloons, it gains 10% of it's Bloons. Whenever you receive attack damage, remove that much this. Lose 10 this at the start of your turn."
+    ]
+  },
+  "${ModID}:OnFire": {
+    "NAME": "On Fire",
+    "DESCRIPTIONS": [
+      "At the start of it's turn, it takes #b", " damage. This lasts an unlimited number of turns."
+    ]
+  },
+  "${ModID}:Supported": {
+    "NAME": "Supported",
+    "DESCRIPTIONS": [
+      "Healing from The Druid's cards and powers is reduced by #b",
+      "%."
+    ]
+  },
+  "${ModID}:Mana Shield": {
+    "NAME": "Mana Shield",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      "%."
+    ]
+  }
+}
