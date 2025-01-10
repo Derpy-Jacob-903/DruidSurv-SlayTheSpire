@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import druidsurv.cards.cardvars.CardTags;
 import druidsurv.powers.onedelaybloon;
 
 import static druidsurv.ModFile.makeID;
@@ -19,7 +20,7 @@ public class OliveBloon extends AbstractEasyCard {
         baseBlock = 5;
         tags.add(CardTags.STARTER_DEFEND);
         tags.add(druidsurv.cards.cardvars.CardTags.BLOON);
-        tags.add(druidsurv.cards.cardvars.CardTags.BASIC);
+        tags.add(druidsurv.cards.cardvars.CardTags.ADVANCED);
         setBackgroundTexture("druidsurvResources/images/512/bloon_skill.png", "druidsurvResources/images/1024/bloon_skill.png");
     }
 
@@ -29,7 +30,8 @@ public class OliveBloon extends AbstractEasyCard {
         {
             addToBot((AbstractGameAction)new ApplyPowerAction(m, p, (AbstractPower)new onedelaybloon(m, damage), damage, true, AbstractGameAction.AttackEffect.NONE));
         }
-        blck();
+        if (this.costForTurn < 1){ blck(); }
+        else { bloonBlck(); }
     }
 
     @Override

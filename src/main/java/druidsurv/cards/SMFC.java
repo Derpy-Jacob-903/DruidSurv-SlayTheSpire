@@ -5,29 +5,29 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import druidsurv.cards.cardvars.CardTags;
-import druidsurv.powers.reload;
-import druidsurv.powers.zerodelaybloon;
+import druidsurv.powers.FanClubBuff;
+import druidsurv.powers.WizardPower;
 
 import static druidsurv.ModFile.makeID;
+import static druidsurv.util.Wiz.p;
 
-public class TackShooter extends AbstractEasyCard {
-    public final static String ID = makeID("TackShooter");
+public class SMFC extends AbstractEasyCard {
+    public final static String ID = makeID("SMFC");
     // intellij stuff attack, enemy, basic, 6, 3,  , , ,
 
-    public TackShooter() {
-        super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
-        baseDamage = 5;
+    public SMFC() {
+        super(ID, 1, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
+        baseDamage = 6;
+        tags.add(druidsurv.cards.cardvars.CardTags.DART);
         tags.add(druidsurv.cards.cardvars.CardTags.MONKEY);
-        tags.add(druidsurv.cards.cardvars.CardTags.DEFENDER);
         this.exhaust = true;
         setBackgroundTexture("druidsurvResources/images/512/monkey_attack.png", "druidsurvResources/images/1024/monkey_attack.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m)
     {
-        dmg(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
-        dmg(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
+        addToBot((AbstractGameAction)new ApplyPowerAction(p(), p(), (AbstractPower)new FanClubBuff(p(), damage), damage, true, AbstractGameAction.AttackEffect.NONE));
+        dmgDart(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
     }
 
     @Override

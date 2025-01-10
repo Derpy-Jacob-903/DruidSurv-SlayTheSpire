@@ -13,7 +13,7 @@ public class CardTags {
     @SpireEnum
     public static AbstractCard.CardTags BASIC; //Affected by Divination
     @SpireEnum
-    public static AbstractCard.CardTags ADVANST; //Affected by Divination
+    public static AbstractCard.CardTags ADVANCED; //Affected by Divination
     @SpireEnum
     public static AbstractCard.CardTags LARGE; //Affected by Divination
     @SpireEnum
@@ -21,6 +21,7 @@ public class CardTags {
     @SpireEnum
     public static AbstractCard.CardTags HEROIC; //Affected by Divination
     @SpireEnum
+    @Deprecated
     public static AbstractCard.CardTags DRUIDDRAW; //Affected by Divination
     @SpireEnum
     public static AbstractCard.CardTags UNIQUE; //Affected by Divination

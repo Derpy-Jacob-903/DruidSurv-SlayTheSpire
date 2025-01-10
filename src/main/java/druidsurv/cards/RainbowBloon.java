@@ -17,14 +17,15 @@ public class RainbowBloon extends AbstractEasyCard {
     public RainbowBloon() {
         super(ID, 3, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
         baseDamage = 80;
-        baseBlock = 20;
+        baseBlock = 3;
         tags.add(druidsurv.cards.cardvars.CardTags.BLOON);
+        tags.add(druidsurv.cards.cardvars.CardTags.ADVANCED);
         setBackgroundTexture("druidsurvResources/images/512/bloon_attack.png", "druidsurvResources/images/1024/bloon_attack.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new ApplyPowerAction(m, p, (AbstractPower)new threedelaybloon(m, damage), damage, true, AbstractGameAction.AttackEffect.NONE));
-        blck();
+        bloonBlck();
     }
 
     @Override

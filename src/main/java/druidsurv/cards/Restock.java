@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import druidsurv.cards.cardvars.CardTags;
 
 import static druidsurv.CharacterFile.Enums.DRUIDSURV_COLOR;
 import static druidsurv.ModFile.makeID;
@@ -19,6 +20,7 @@ public class Restock extends AbstractEasyCard {
     public Restock() {
         super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
         magicNumber = 3;
+        tags.add(druidsurv.cards.cardvars.CardTags.BCSPOWER);
         this.exhaust = true;
         setBackgroundTexture("druidsurvResources/images/512/power_skill.png", "druidsurvResources/images/1024/power_skill.png");
     }

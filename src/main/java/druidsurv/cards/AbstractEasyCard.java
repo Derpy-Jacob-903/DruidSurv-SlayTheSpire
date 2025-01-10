@@ -17,6 +17,8 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import java.util.function.Consumer;
 import druidsurv.CharacterFile;
+import druidsurv.powers.FanClubBuff;
+import druidsurv.powers.WizardPower;
 import druidsurv.util.CardArtRoller;
 
 import static druidsurv.ModFile.makeImagePath;
@@ -198,6 +200,12 @@ public abstract class AbstractEasyCard extends CustomCard {
         atb(new DamageAction(m, new DamageInfo(AbstractDungeon.player, damage, damageTypeForTurn), fx));
     }
 
+    protected void dmgDart(AbstractMonster m, AbstractGameAction.AttackEffect fx) {
+        int bone = 0;
+        if (AbstractDungeon.player.hasPower(FanClubBuff.POWER_ID)){ bone = AbstractDungeon.player.getPower(FanClubBuff.POWER_ID).amount;}
+        atb(new DamageAction(m, new DamageInfo(AbstractDungeon.player, damage + bone, damageTypeForTurn), fx));
+    }
+
     protected void dmgTop(AbstractMonster m, AbstractGameAction.AttackEffect fx) {
         att(new DamageAction(m, new DamageInfo(AbstractDungeon.player, damage, damageTypeForTurn), fx));
     }
@@ -254,6 +262,11 @@ public abstract class AbstractEasyCard extends CustomCard {
 
     protected void blck() {
         atb(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, block));
+    }
+
+
+    protected void bloonBlck() {
+        atb(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, block*costForTurn));
     }
 
     protected void blckTop() {

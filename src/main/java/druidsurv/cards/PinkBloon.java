@@ -24,7 +24,7 @@ public class PinkBloon extends AbstractEasyCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new ApplyPowerAction(m, p, (AbstractPower)new zerodelaybloon(m, damage), damage, true, AbstractGameAction.AttackEffect.NONE));
-        blck();
+        bloonBlck();
     }
 
     @Override

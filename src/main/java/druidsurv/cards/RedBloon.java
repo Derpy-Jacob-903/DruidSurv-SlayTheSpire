@@ -16,7 +16,7 @@ public class RedBloon extends AbstractEasyCard {
     public RedBloon() {
         super(ID, 0, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
         baseDamage = 6;
-        baseBlock = 0;
+        baseBlock = 5;
         tags.add(druidsurv.cards.cardvars.CardTags.BLOON);
         tags.add(druidsurv.cards.cardvars.CardTags.BASIC);
         setBackgroundTexture("druidsurvResources/images/512/bloon_attack.png", "druidsurvResources/images/1024/bloon_attack.png");
@@ -24,7 +24,7 @@ public class RedBloon extends AbstractEasyCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new ApplyPowerAction(m, p, (AbstractPower)new onedelaybloon(m, damage), damage, true, AbstractGameAction.AttackEffect.NONE));
-        blck();
+        bloonBlck();
     }
 
     @Override

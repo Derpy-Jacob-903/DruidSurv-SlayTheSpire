@@ -9,7 +9,7 @@
   },
   "druidsurv:DartMonkey": {
     "NAME": "Dart Monkey",
-    "DESCRIPTION": "Strike. Dartkind. Deal !D! damage."
+    "DESCRIPTION": "#yDartkind. Deal !D! damage."
   },
   "druidsurv:Huntress": {
     "NAME": "Huntress Monkey",
@@ -29,7 +29,7 @@
   },
   "druidsurv:BlueBloon": {
     "NAME": "Blue Bloon",
-    "DESCRIPTION": "Gain !B! Block. Deal !D! damage at the end of your next turn."
+    "DESCRIPTION": "Gain !B!X Block. Deal !D! damage at the end of your next turn."
   },
   "druidsurv:Boomerang": {
     "NAME": "Boomerang Monkey",
@@ -49,11 +49,11 @@
   },
   "druidsurv:PinkBloon": {
     "NAME": "Pink Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. Deal !D! damage at the end of your turn."
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. Deal !D! damage at the end of your turn."
   },
   "druidsurv:RedBloon": {
     "NAME": "Red Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. Deal !D! damage at the end of your next turn."
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. Deal !D! damage at the end of your next turn."
   },
   "druidsurv:Restock": {
     "NAME": "Restock",
@@ -61,7 +61,7 @@
   },
   "druidsurv:RustedKey": {
     "NAME": "Rusted Key",
-    "DESCRIPTION": "Gain a random cards."
+    "DESCRIPTION": "Gain a random card."
   },
   "druidsurv:SuperMonkey": {
     "NAME": "Super Monkey",
@@ -85,11 +85,11 @@
   },
   "druidsurv:YellowBloon": {
     "NAME": "Yellow Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage at the end of your next turn."
   },
   "druidsurv:GreenBloon": {
     "NAME": "Green Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage at the end of your next turn."
   },
   "druidsurv:UndeadBloon": {
     "NAME": "Undead Bloon",
@@ -101,27 +101,67 @@
   },
   "druidsurv:CeramicBloon": {
     "NAME": "Ceramic Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage after 2 turns."
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage after 2 turns."
   },
   "druidsurv:RainbowBloon": {
     "NAME": "Rainbow Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage at the end of your next turn."
   },
   "druidsurv:Crossbow": {
     "NAME": "Crossbow Monkey",
-    "DESCRIPTION": "Deal !D!*2 damage, then deal !D! damage twice."
+    "DESCRIPTION": "Deal !D! damage twice."
   },
   "druidsurv:SharpShooter": {
     "NAME": "Sharp Shooter",
-    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+    "DESCRIPTION": "Deal !D!*2 damage, then deal !D! damage twice."
   },
   "druidsurv:Sniper": {
-    "NAME": "Sharp Shooter",
-    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage at the end of your next turn."
+    "NAME": "Sniper",
+    "DESCRIPTION": "Deal !D! damage."
   },
   "druidsurv:Strengthenator": {
     "NAME": "Strengthenator",
     "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  },
+  "druidsurv:StunGasBloon": {
+    "NAME": "Paralysis Gas Bloon",
+    "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  },
+  "druidsurv:BloontoniumGasBloon": {
+    "NAME": "Bloontonium Gas Bloon",
+    "DESCRIPTION": "Gain !M!(X+1) Block when hit. NL (Where X is the cost of this card.)"
+  },
+  "druidsurv:BloontoniumGasBloonOldIThink": {
+    "NAME": "Energy Gas Bloon",
+    "DESCRIPTION": "Gain 6 Block and Lose 2 Focus. NL Whenever you are attacked, gain [R], until the end of your next turn. Exhaust."
+  },
+  "druidsurv:ShieldGasBloon": {
+    "NAME": "Shield Gas Bloon",
+    "DESCRIPTION": "Gain !M! Mana Shield when hit."
+  },
+  "druidsurv:WeakeningGasBloon": {
+    "NAME": "Weakening Gas Bloon",
+    "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  },
+  "druidsurv:VolatileBloon": {
+    "NAME": "Volatile Bloon",
+    "DESCRIPTION": "Gain !B!X Block. After taking 20 damage, deal 10 damage to yourself and ALL enemies. Exhaust."
+  },
+  "druidsurv:BolsteredBloon": {
+    "NAME": "Volatile Bloon",
+    "DESCRIPTION": "Gain !B! Block and !B! Mana Shield when you play a Bloon this turn. At the end of your turn, lose 2 Dexterity. Exhaust."
+  },
+  "druidsurv:BlockCache": {
+    "NAME": "Bloontonium Cache",
+    "DESCRIPTION": "Gain !B!(X+1) Block. NL (Where X is the cost of this card.) NL Exhaust."
+  },
+  "druidsurv:CashDrop": {
+    "NAME": "Cash Drop",
+    "DESCRIPTION": "Gain [R]. Exhaust."
+  },
+  "druidsurv:ManaShield": {
+    "NAME": "Mana Shield",
+    "DESCRIPTION": "Gain !B! Block and !B! Mana Shield. Exhaust."
   },
   "druidsurv:WizardMonkey": {
     "NAME": "Wizard Monkey",
@@ -133,21 +173,21 @@
   },
   "druidsurv:ArchersInstinct": {
     "NAME": "Archer's Instinct",
-    "DESCRIPTION": "Pick 3. NL If it's a Monkey, it gains +!M! Attack Power",
+    "DESCRIPTION": "#yPick 3.",
     "EXTENDED_DESCRIPTION": [
       "Choose a card to add into your hand."
     ]
   },
   "druidsurv:NaturesClarity": {
     "NAME": "Nature's Clarity",
-    "DESCRIPTION": "Pick 4. NL Gain !M! Mana Shield per [R] cost of picked card",
+    "DESCRIPTION": "#yPick 4. NL Gain !M! Mana Shield per [R] cost of picked card",
     "EXTENDED_DESCRIPTION": [
       "Choose a card to add into your hand."
     ]
   },
   "druidsurv:Divination": {
     "NAME": "Divination",
-    "DESCRIPTION": "Pick 3. NL If it's a Monkey, gain !M! Strength",
+    "DESCRIPTION": "#yPick 3. NL If it's a Monkey, gain !M! Strength",
     "EXTENDED_DESCRIPTION": [
       "Choose a card to add into your hand."
     ]

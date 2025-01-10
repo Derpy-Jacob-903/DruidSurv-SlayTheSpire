@@ -24,7 +24,7 @@ public class DartMonkey extends AbstractEasyCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        dmg(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
+        dmgDart(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
     }
 
     @Override

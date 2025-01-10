@@ -68,14 +68,5 @@
        "bloon_sends"
      ],
      "DESCRIPTION": "Deals damage after a delay. Damage dealt by the target before this hits reduces the damage."
-  },
-  {
-     "PROPER_NAME": "BLOONALLY",
-     "NAMES": [
-       "Ally bloon send",
-       "bloon_send",
-       "bloon_sends"
-     ],
-     "DESCRIPTION": "Deals damage after a delay. Damage dealt by the target before this hits reduces the damage."
   }
 ]

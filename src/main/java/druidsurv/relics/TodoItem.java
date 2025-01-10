@@ -37,9 +37,15 @@ public class TodoItem extends AbstractEasyRelic {
 
     public void onEquip() {
         --AbstractDungeon.player.masterHandSize;
+        --AbstractDungeon.player.masterHandSize;
+        --AbstractDungeon.player.masterHandSize;
+        --AbstractDungeon.player.masterHandSize;
     }
 
     public void onUnequip() {
+        ++AbstractDungeon.player.masterHandSize;
+        ++AbstractDungeon.player.masterHandSize;
+        ++AbstractDungeon.player.masterHandSize;
         ++AbstractDungeon.player.masterHandSize;
     }
 
@@ -51,7 +57,7 @@ public class TodoItem extends AbstractEasyRelic {
     }
 
     public void onPlayCard(AbstractCard c, AbstractMonster m) {
-        if (c.color == this.color && c.tags.contains(CardTags.MONKEY) || c.tags.contains(CardTags.BLOON) || c.rarity == AbstractCard.CardRarity.BASIC)
+        if (c.color == this.color && c.tags.contains(CardTags.MONKEY) || c.tags.contains(CardTags.BASIC) || c.rarity == AbstractCard.CardRarity.BASIC)
         {
             AbstractPlayer p = AbstractDungeon.player;
             addToBot((AbstractGameAction)new ApplyPowerAction(p, p, (AbstractPower)new DrawCardNextTurnPower(p, 1), 1, true, AbstractGameAction.AttackEffect.NONE));

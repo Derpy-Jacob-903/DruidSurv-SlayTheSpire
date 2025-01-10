@@ -13,8 +13,6 @@ public class DartMonkeyTwin extends AbstractEasyCard {
     public DartMonkeyTwin() {
         super(ID, 1, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ENEMY, CardColor.COLORLESS);
         baseDamage = 6;
-        tags.add(CardTags.STRIKE);
-        tags.add(CardTags.STARTER_STRIKE);
         tags.add(druidsurv.cards.cardvars.CardTags.DART);
         tags.add(druidsurv.cards.cardvars.CardTags.MONKEY);
         tags.add(druidsurv.cards.cardvars.CardTags.TWIN);
@@ -23,7 +21,7 @@ public class DartMonkeyTwin extends AbstractEasyCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        dmg(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
+        dmgDart(m, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL);
     }
 
     @Override

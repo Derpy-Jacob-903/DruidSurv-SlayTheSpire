@@ -51,7 +51,7 @@ public class CharacterFile extends CustomPlayer {
     @Override
     public CharSelectInfo getLoadout() {
         return new CharSelectInfo(NAMES[0], TEXT[0],
-                70, 110, 1, 0, 3, this, getStartingRelics(),
+                70, 110, 2, 0, 5, this, getStartingRelics(),
                 getStartingDeck(), false);
     }
 

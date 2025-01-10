@@ -14,13 +14,13 @@ public class WeakGas extends AbstractEasyCard {
     // intellij stuff skill, self, basic, , ,  5, 3, ,
 
     public WeakGas() {
-        super(ID, 1, CardType.SKILL, CardRarity.RARE, CardTarget.SELF);
+        super(ID, 1, CardType.POWER, CardRarity.RARE, CardTarget.SELF);
         baseDamage = 60;
         baseBlock = 6;
         tags.add(druidsurv.cards.cardvars.CardTags.BLOON);
         tags.add(druidsurv.cards.cardvars.CardTags.LARGE);
         this.exhaust = true;
-        setBackgroundTexture("druidsurvResources/images/512/bloon_skill.png", "druidsurvResources/images/1024/bloon_skill.png");
+        setBackgroundTexture("druidsurvResources/images/512/bloon_power.png", "druidsurvResources/images/1024/bloon_power.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

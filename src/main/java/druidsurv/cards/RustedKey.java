@@ -18,16 +18,16 @@ public class RustedKey extends AbstractEasyCard {
     // intellij stuff skill, self, basic, , ,  5, 3, ,
 
     public RustedKey() {
-        super(ID,     0, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID,0, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
         baseMagicNumber = 1;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m)
     {
         for (int i = 1; i == magicNumber; i++) {
-            AbstractCard tmp = AbstractDungeon.returnTrulyRandomCardInCombat();
+            AbstractCard tmp = AbstractDungeon.returnTrulyRandomCard();
             while ((!tmp.color.equals(CardColor.COLORLESS)) && (!(tmp.rarity.equals(CardRarity.UNCOMMON) || tmp.rarity.equals(CardRarity.RARE)))) {
-                tmp = AbstractDungeon.returnTrulyRandomCardInCombat();
+                tmp = AbstractDungeon.returnTrulyRandomCard();
             }
             makeInHand(tmp);
         }

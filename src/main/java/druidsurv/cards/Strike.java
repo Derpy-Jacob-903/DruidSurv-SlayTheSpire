@@ -3,6 +3,7 @@ package druidsurv.cards;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import druidsurv.cards.cardvars.CardTags;
 
 import static druidsurv.ModFile.makeID;
 
@@ -15,6 +16,7 @@ public class Strike extends AbstractEasyCard {
         baseDamage = 6;
         tags.add(CardTags.STRIKE);
         tags.add(CardTags.STARTER_STRIKE);
+        tags.add(druidsurv.cards.cardvars.CardTags.THORNKIND);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

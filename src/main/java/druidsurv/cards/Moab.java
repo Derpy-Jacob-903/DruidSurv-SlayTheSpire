@@ -18,7 +18,7 @@ public class Moab extends AbstractEasyCard {
     public Moab() {
         super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
         baseDamage = 100;
-        baseBlock = 6;
+        baseBlock = 10;
         tags.add(druidsurv.cards.cardvars.CardTags.BLOON);
         tags.add(druidsurv.cards.cardvars.CardTags.LARGE);
         this.exhaust = true;

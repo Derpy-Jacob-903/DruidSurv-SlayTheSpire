@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
+import druidsurv.cards.cardvars.CardTags;
 import druidsurv.powers.strengthenator;
 
 import java.util.ArrayList;
@@ -27,7 +28,8 @@ public class Divination extends AbstractEasyCard {
 
     public Divination() {
         super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
-
+        baseMagicNumber = 1;
+        tags.add(druidsurv.cards.cardvars.CardTags.BCSPOWER);
         setBackgroundTexture("druidsurvResources/images/512/power_skill.png", "druidsurvResources/images/1024/power_skill.png");
     }
 

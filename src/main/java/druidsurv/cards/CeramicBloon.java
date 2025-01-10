@@ -16,15 +16,15 @@ public class CeramicBloon extends AbstractEasyCard {
 
     public CeramicBloon() {
         super(ID, 2, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
-        baseDamage = 24;
-        baseBlock = 12;
+        baseDamage = 50;
+        baseBlock = 3;
         tags.add(druidsurv.cards.cardvars.CardTags.BLOON);
         setBackgroundTexture("druidsurvResources/images/512/bloon_attack.png", "druidsurvResources/images/1024/bloon_attack.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new ApplyPowerAction(m, p, (AbstractPower)new twodelaybloon(m, damage), damage, true, AbstractGameAction.AttackEffect.NONE));
-        blck();
+        bloonBlck();
     }
 
     @Override

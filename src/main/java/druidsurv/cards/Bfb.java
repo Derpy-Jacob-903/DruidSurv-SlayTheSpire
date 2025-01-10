@@ -27,7 +27,7 @@ public class Bfb extends AbstractEasyCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new ApplyPowerAction(m, p, (AbstractPower)new fourdelaybloon(m, damage), damage, true, AbstractGameAction.AttackEffect.NONE));
-        blck();
+        bloonBlck();
     }
 
     @Override
