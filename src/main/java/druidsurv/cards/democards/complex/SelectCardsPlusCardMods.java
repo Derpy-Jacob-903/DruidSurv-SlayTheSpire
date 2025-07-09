@@ -1,5 +1,6 @@
 package druidsurv.cards.democards.complex;
 
+import basemod.AutoAdd;
 import basemod.cardmods.EtherealMod;
 import basemod.cardmods.ExhaustMod;
 import basemod.helpers.CardModifierManager;
@@ -16,13 +17,15 @@ import java.util.Collections;
 import static druidsurv.ModFile.makeID;
 import static druidsurv.util.Wiz.*;
 
+@AutoAdd.Ignore
 public class SelectCardsPlusCardMods extends AbstractEasyCard {
 
     public final static String ID = makeID(SelectCardsPlusCardMods.class.getSimpleName());
     // intellij stuff skill, self, uncommon
 
     public SelectCardsPlusCardMods() {
-        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.SELF);
+        super(ID, 1, CardType.SKILL, CardRarity.SPECIAL, CardTarget.SELF);
+        setPortraitTextures("druidsurvResources/images/cardui/512/frame_skill_hidden.png", "druidsurvResources/images/cardui/1024/frame_skill_hidden.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

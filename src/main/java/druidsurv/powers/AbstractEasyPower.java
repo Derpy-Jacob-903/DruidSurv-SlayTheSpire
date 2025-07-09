@@ -47,6 +47,34 @@ public abstract class AbstractEasyPower extends AbstractPower {
         updateDescription();
     }
 
+    public AbstractEasyPower(String ID, String NAME, PowerType powerType, boolean isTurnBased, AbstractCreature owner, int delay, int health) {
+        this.ID = ID;
+        this.isTurnBased = isTurnBased;
+
+        this.name = NAME;
+        PowerStrings strings = CardCrawlGame.languagePack.getPowerStrings(this.ID);
+        this.DESCRIPTIONS = strings.DESCRIPTIONS;
+
+        this.owner = owner;
+        this.isTwoAmount = true;
+        this.amount = delay;
+        this.amount2 = health;
+        this.type = powerType;
+
+        Texture normalTexture = TexLoader.getTexture(ModFile.modID + "Resources/images/powers/" + ID.replaceAll(ModFile.modID + ":", "") + "32.png");
+        Texture hiDefImage = TexLoader.getTexture(ModFile.modID + "Resources/images/powers/" + ID.replaceAll(ModFile.modID + ":", "") + "84.png");
+        if (hiDefImage != null) {
+            region128 = new TextureAtlas.AtlasRegion(hiDefImage, 0, 0, hiDefImage.getWidth(), hiDefImage.getHeight());
+            if (normalTexture != null)
+                region48 = new TextureAtlas.AtlasRegion(normalTexture, 0, 0, normalTexture.getWidth(), normalTexture.getHeight());
+        } else if (normalTexture != null) {
+            this.img = normalTexture;
+            region48 = new TextureAtlas.AtlasRegion(normalTexture, 0, 0, normalTexture.getWidth(), normalTexture.getHeight());
+        }
+
+        updateDescription();
+    }
+
     public void renderAmount(SpriteBatch sb, float x, float y, Color c) {
         super.renderAmount(sb, x, y, c);
         if (!isTwoAmount)

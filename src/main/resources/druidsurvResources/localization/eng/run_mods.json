@@ -1,0 +1,54 @@
+{
+  "${ModID}:DebugMonkeyDeck": {
+    "NAME": "Debug Monkey Deck",
+    "DESCRIPTION": "Starting Deck is replaced with one of every Monkey."
+  },
+  "${ModID}:DebugBloonDeck": {
+    "NAME": "Debug Bloon Deck",
+    "DESCRIPTION": "Starting Deck is replaced with one of every Bloon, plus Powers that act on Bloons."
+  },
+  "${ModID}:DebugPowerDeck": {
+    "NAME": "Debug Power Deck",
+    "DESCRIPTION": "Add one of every Power (Druid cards with Purple card backs) to your Starting Deck."
+  },
+  "${ModID}:BCS": {
+    "NAME": "Blight of the Storm",
+    "DESCRIPTION": "All cards in your discard and Exhaust pile Purge when you discard. If your Draw pile is empty, Die next turn. Starting Deck is quadrupled."
+  },
+  "${ModID}:Improvised": {
+    "NAME": "52 Card Deck",
+    "DESCRIPTION": "Start with 52 random cards, 13 of each suit/color. (Red as Hearts, Green as Clubs, Blue as Spades, Purple as Diamonds.) All cards in your discard and Exhaust pile Purge when you discard. If your Draw pile is empty, Die next turn."
+  },
+  "${ModID}:Improvised2": {
+    "NAME": "52 Card Deck 2",
+    "DESCRIPTION": "Start with 52 starter cards, 13 of each color and a special Curse. All cards in your discard and Exhaust pile Purge when you discard. If your Draw pile is empty, Die next turn."
+  },
+  "${ModID}:QuincyStarter": {
+    "NAME": "QuincyStarter",
+    "DESCRIPTION": "Start with Gambling Chip, Ice Cream, Runic Pyramid and Card Storm. Starting Deck is replaced with the \"QuincyStarter\" Deck."
+  },
+  "${ModID}:ErraticDeck": {
+    "NAME": "Erratic Deck",
+    "DESCRIPTION": "Start with random basic cards."
+  },
+  "${ModID}:Allstar1": {
+    "NAME": "Add BCS Cards",
+    "DESCRIPTION": "Add the Druid's cards to the pool for 52 Card Deck. (Monkeys as Hearts, Bloons as Spades, Powers as Diamonds, Others as Clubs)"
+  },
+  "${ModID}:Allstar2": {
+    "NAME": "All Star",
+    "DESCRIPTION": "Add some of the PKMN Masters' PKMN to the pool. (Water as Spades, Fire as Hearts, Grass as Clubs, Electric as Diamonds.)"
+  },
+  "${ModID}:Allstar9": {
+    "NAME": "All Star",
+    "DESCRIPTION": "Add the PKMN Masters' Psychic and Steel type PKMN to the pool. (Steel as Spades and Clubs, Psychic as Hearts and Diamonds)"
+  },
+  "${ModID}:Allstar3": {
+    "NAME": "All Star",
+    "DESCRIPTION": "Add The Vixen and Ferrothorn's Cards to the pool. (Ferrothorn as Spades and Clubs, The Vixen as Hearts and Diamonds)"
+  },
+  "${ModID}:Allstar4": {
+    "NAME": "All Star",
+    "DESCRIPTION": "each type. (Monkeys as Red, Bloons as Blue, Powers as Purple, Hero specifc cards as Green)"
+  }
+}

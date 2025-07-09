@@ -1,0 +1,14 @@
+package druidsurv.relics;
+
+import com.megacrit.cardcrawl.blights.AbstractBlight;
+import druidsurv.util.TexLoader;
+
+import static druidsurv.ModFile.*;
+
+public class fiftyTwoDeckBlight extends AbstractBlight {
+    public static final String ID = makeID("52Blight");
+
+    public fiftyTwoDeckBlight(String setId, String name, String description, String imgName, boolean unique) {
+        super(setId, "Blight of the", "All cards Purge when discarded or Exhausted. Die if your Draw pile is empty.", makeRelicPath(setId.replace(modID + ":", "") + ".png"), true);
+    }
+}

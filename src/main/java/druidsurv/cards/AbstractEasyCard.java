@@ -4,7 +4,9 @@ import basemod.abstracts.CustomCard;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Texture;
+import com.evacipated.cardcrawl.mod.stslib.patches.FlavorText;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
@@ -16,10 +18,12 @@ import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import java.util.function.Consumer;
+
 import druidsurv.CharacterFile;
-import druidsurv.powers.FanClubBuff;
-import druidsurv.powers.WizardPower;
+import druidsurv.powers.BloontoniumPower;
+import druidsurv.powers.monkeys.FanClubBuff;
 import druidsurv.util.CardArtRoller;
+import druidsurv.actions.DefenderAttackAction;
 
 import static druidsurv.ModFile.makeImagePath;
 import static druidsurv.ModFile.modID;
@@ -42,11 +46,19 @@ public abstract class AbstractEasyCard extends CustomCard {
     private boolean needsArtRefresh = false;
 
     public AbstractEasyCard(final String cardID, final int cost, final CardType type, final CardRarity rarity, final CardTarget target) {
-        this(cardID, cost, type, rarity, target, CharacterFile.Enums.DRUIDSURV_COLOR);
+        this(cardID, cost, type, rarity, target, CharacterFile.Enums.DRUIDSURV_COLOR, cardID.replace(modID + ":", ""));
+    }
+
+    public AbstractEasyCard(final String cardID, final int cost, final CardType type, final CardRarity rarity, final CardTarget target, final String cardArt) {
+        this(cardID, cost, type, rarity, target, CharacterFile.Enums.DRUIDSURV_COLOR, cardArt);
     }
 
     public AbstractEasyCard(final String cardID, final int cost, final CardType type, final CardRarity rarity, final CardTarget target, final CardColor color) {
-        super(cardID, "", getCardTextureString(cardID.replace(modID + ":", ""), type),
+        this(cardID, cost, type, rarity, target, color, cardID.replace(modID + ":", ""));
+    }
+
+    public AbstractEasyCard(final String cardID, final int cost, final CardType type, final CardRarity rarity, final CardTarget target, final CardColor color, final String cardArt) {
+        super(cardID, "", myGetCardTextureString(cardArt, type),
                 cost, "", type, color, rarity, target);
         cardStrings = CardCrawlGame.languagePack.getCardStrings(this.cardID);
         rawDescription = cardStrings.DESCRIPTION;
@@ -60,6 +72,7 @@ public abstract class AbstractEasyCard extends CustomCard {
             } else
                 needsArtRefresh = true;
         }
+        System.out.println(name + ", " + type + ", " + cost + ", " + FlavorText.CardStringsFlavorField.flavor.get(cardStrings) +  ", " + rawDescription + ", " + baseDamage + ", " + baseBlock + ", " + baseMagicNumber + ", " + baseSecondMagic);
     }
 
     @Override
@@ -69,6 +82,69 @@ public abstract class AbstractEasyCard extends CustomCard {
         } else {
             return super.getPortraitImage();
         }
+    }
+
+    public enum cardSubType
+    {
+        MONKEY, //VESSEL
+        BLOON,
+        POWER, //LAND
+        ABILITY,
+        ARTIFACT,
+        MOX
+    }
+
+    public void setCardBack(cardSubType subType)
+    { setCardBack(this, subType, false); }
+
+    public void setCardBack(cardSubType subType, boolean isMox)
+    { setCardBack(this, subType, false); }
+
+    public void setCardBack(final AbstractCard card, cardSubType subType)
+    { setCardBack(card, subType, false); }
+
+    /// sets
+    public void setCardBack(final AbstractCard card, cardSubType subType, boolean isMox) {
+        String aString;
+        String bString;
+
+        switch (card.type) {
+            case ATTACK:
+                bString = "_attack.png";
+                break;
+            case POWER:
+                bString = "_power.png";
+                break;
+            case SKILL:
+            default:
+                bString = "_skill.png";
+                break;
+        }
+        switch (subType) {
+            case MONKEY:
+                aString = "monkey";
+                break;
+            case BLOON:
+                aString = "bloon";
+                break;
+            case POWER:
+                aString = "power";
+                break;
+            case ABILITY:
+                aString = "hero";
+                break;
+            case MOX:
+                aString = "mox"; bString = ".png";
+                //if (card.rarity == CardRarity.RARE)
+                //{ bString = "_common.png"; }
+                //else { bString = "_rare.png"; }
+                break;
+            case ARTIFACT:
+            default:
+                aString = "arti";
+                break;
+        }
+        setBackgroundTexture(makeImagePath("512/" + aString + bString), makeImagePath("1024/" + aString + bString));
     }
 
     public static String getCardTextureString(final String cardName, final AbstractCard.CardType cardType) {
@@ -82,6 +158,28 @@ public abstract class AbstractEasyCard extends CustomCard {
                 break;
             default:
                 textureString = makeImagePath("ui/missing.png");
+                break;
+        }
+
+        FileHandle h = Gdx.files.internal(textureString);
+        if (!h.exists()) {
+            textureString = makeImagePath("ui/missing.png");
+        }
+        return textureString;
+    }
+
+    public static String myGetCardTextureString(final String cardArt, final AbstractCard.CardType cardType) {
+        String textureString;
+        switch (cardType) {
+            case ATTACK:
+                textureString = makeImagePath("cards/Attacks/" + cardArt + ".png");
+                break;
+            case POWER:
+                textureString = makeImagePath("cards/Powers/" + cardArt + ".png");
+                break;
+            case SKILL:
+            default:
+                textureString = makeImagePath("cards/Skills/" + cardArt + ".png");
                 break;
         }
 
@@ -200,6 +298,12 @@ public abstract class AbstractEasyCard extends CustomCard {
         atb(new DamageAction(m, new DamageInfo(AbstractDungeon.player, damage, damageTypeForTurn), fx));
     }
 
+    @Deprecated
+    protected void dmgDefender(AbstractMonster m, AbstractGameAction.AttackEffect fx) {
+        atb(new DefenderAttackAction(m, AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, damage, damageTypeForTurn)));
+    }
+
+    @Deprecated //
     protected void dmgDart(AbstractMonster m, AbstractGameAction.AttackEffect fx) {
         int bone = 0;
         if (AbstractDungeon.player.hasPower(FanClubBuff.POWER_ID)){ bone = AbstractDungeon.player.getPower(FanClubBuff.POWER_ID).amount;}
@@ -264,9 +368,18 @@ public abstract class AbstractEasyCard extends CustomCard {
         atb(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, block));
     }
 
+    protected void bloontonium() {
+        atb(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new BloontoniumPower(AbstractDungeon.player, costForTurn), costForTurn));
+    }
 
     protected void bloonBlck() {
+        atb(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new BloontoniumPower(AbstractDungeon.player, costForTurn), costForTurn));
         atb(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, block*costForTurn));
+    }
+
+    protected void bloonBlck2() {
+        atb(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new BloontoniumPower(AbstractDungeon.player, costForTurn), costForTurn));
+        atb(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, block));
     }
 
     protected void blckTop() {

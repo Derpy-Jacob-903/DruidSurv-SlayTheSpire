@@ -1,13 +1,266 @@
 {
-  "${ModID}:ModdedCharacter": {
+  "${ModID}:DruidSurv": {
     "NAMES": [
       "The Druid",
       "the Druid"
     ],
     "TEXT": [
+      "An unfinished creation, Uses an army of Monkeys and Bloons.",
+      "NL You red",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~monkey,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:NemDruid": {
+    "NAMES": [
+      "The Mage",
+      "the Mage"
+    ],
+    "TEXT": [
+      "An unfinished creation, Uses power Mox.",
+      "NL You ready your ",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~monkey,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Crow": {
+    "NAMES": [
+      "The Chosen",
+      "the Chosen"
+    ],
+    "TEXT": [
+      "An unfinished creation, [MISSING_DESCRIPTION].",
+      "NL You ready your ",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~monkey,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Crow": {
+    "NAMES": [
+      "The Chosen",
+      "the Chosen"
+    ],
+    "TEXT": [
       "An unfinished creation, waiting for an expert to fill the canvas.",
+      "NL You ready your ",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~monkey,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Quincy": {
+    "NAMES": [
+      "The Archer",
+      "the Archer"
+    ],
+    "TEXT": [
+      "Proud, strong and intelligent, Quincy uses his bow to perform feats of amazing skill.",
+      "NL You ready your bow..",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Gwen": {
+    "NAMES": [
+      "The Pyromaniac",
+      "the Pyromaniac"
+    ],
+    "TEXT": [
+      "Gwendolin believes there hasn't yet been a Bloon problem that can't be solved with fire. Lots of fire.",
       "NL TODO: Change this text",
-      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~TODO:~ ~one,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Obyn": {
+    "NAMES": [
+      "The Forest Guardian",
+      "the Forest Guardian"
+    ],
+    "TEXT": [
+      "Commanding powers of nature, Obyn can shoot through solid obstacles with his spirit wolf attack.",
+      "NL You ready your wolf spirits..",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Amelia": {
+    "NAMES": [
+      "The Amazing",
+      "the Amazing"
+    ],
+    "TEXT": [
+      "Adora's devotion compels her to strike Bloons down with furious vengeance.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Adora": {
+    "NAMES": [
+      "The High Priestess",
+      "the High Priestess"
+    ],
+    "TEXT": [
+      "Adora's devotion compels her to strike Bloons down with furious vengeance.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:ZeeJay": {
+    "NAMES": [
+      "The cat with homophobia in its eyes ♥",
+      "the cat with homophobia in its eyes ♥"
+    ],
+    "TEXT": [
+      "a cat with homophobia in its eyes ♥",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~bro,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Jones": {
+    "NAMES": [
+      "The Artillery Commander",
+      "the Artillery Commander"
+    ],
+    "TEXT": [
+      "Striker Jones is a strong Commander who uses his knowledge of long range combat to greatly boost the power of explosives.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Churchill": {
+    "NAMES": [
+      "The Tank",
+      "the Tank"
+    ],
+    "TEXT": [
+      "In his armored battle tank, Captain Churchill is a no-nonsense powerhouse on the battlefield.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Ben": {
+    "NAMES": [
+      "The Code Monkey",
+      "the Code Monkey"
+    ],
+    "TEXT": [
+      "Using his elite hacking skills, Benjamin can generate extra money for the cause.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Ezili": {
+    "NAMES": [
+      "The Voodoo Monkey",
+      "the Voodoo Monkey"
+    ],
+    "TEXT": [
+      "Ezili is a wielder of dark arts and manipulator of Bloons. Beware.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Pat": {
+    "NAMES": [
+      "The Giant Monkey",
+      "the Giant Monkey"
+    ],
+    "TEXT": [
+      "Pat is a huge Monkey of enormous strength. His unique size and power is a great asset in the war on Bloons.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Brickell": {
+    "NAMES": [
+      "The Naval Commander",
+      "the Naval Commander"
+    ],
+    "TEXT": [
+      "Command all your water-based Monkeys to decisive victory. Requires water to place.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Etienne": {
+    "NAMES": [
+      "The Drone Operator",
+      "the Drone Operator"
+    ],
+    "TEXT": [
+      "This high-tech class can pursue the Bloons wherever they go with his remote controlled drone.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Sauda": {
+    "NAMES": [
+      "The Swordmaster",
+      "the Swordmaster"
+    ],
+    "TEXT": [
+      "With calm fury, Sauda can carve Bloons up with her twin razor-sharp swords.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Psi": {
+    "NAMES": [
+      "The Psionic",
+      "the Psionic"
+    ],
+    "TEXT": [
+      "A gifted monkey child, Psi uses only the power of the mind to destroy Bloons from the inside out.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~child,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Geraldo": {
+    "NAMES": [
+      "The Shopkeeper",
+      "the Shopkeeper"
+    ],
+    "TEXT": [
+      "Geraldo the Shopkeeper sells a selection of useful items and zaps Bloons with his lightning attack.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Corvus": {
+    "NAMES": [
+      "The Spirit Walker",
+      "the Spirit Walker"
+    ],
+    "TEXT": [
+      "Corvus works well on the frontline, weakening nearby Bloons to harvest Mana and channel powerful energies through his Spirit companion.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Rosalia": {
+    "NAMES": [
+      "The Tinkerer",
+      "the Tinkerer"
+    ],
+    "TEXT": [
+      "Rosalia can reposition in a moment with her jetpack and brings the firepower with her laser, grenade launcher and missiles.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Jericho": {
+    "NAMES": [
+      "The COBRA",
+      "the COBRA"
+    ],
+    "TEXT": [
+      "Jericho is an elite Covert Ops agent who uses high tech subterfuge to sabotage and disrupt his opponents.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~brother,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  },
+  "${ModID}:Bonnie": {
+    "NAMES": [
+      "The Miner",
+      "the Miner"
+    ],
+    "TEXT": [
+      "A hard working miner who summons carts of bloonstones for extra cash. Her dynamite makes short work of any bloon that passes by.",
+      "NL TODO: Change this text",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~sister,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
     ]
   }
 }

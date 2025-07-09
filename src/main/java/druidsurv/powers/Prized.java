@@ -35,8 +35,9 @@ public class Prized extends AbstractEasyPower implements HealthBarRenderPower {
 
     public int onAttackedToChangeDamage(DamageInfo info, int damageAmount) {
         if (damageAmount > 0 && info.type == DamageInfo.DamageType.NORMAL) {
-            addToTop((AbstractGameAction)new ReducePowerAction(this.owner, this.owner, this, 1));
-            return damageAmount + amount;
+            int temp = amount;
+            addToTop((AbstractGameAction)new ReducePowerAction(this.owner, this.owner, this, amount));
+            return damageAmount + temp;
         }
         return damageAmount;
     }

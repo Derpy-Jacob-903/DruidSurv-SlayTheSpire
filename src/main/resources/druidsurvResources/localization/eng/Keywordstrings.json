@@ -3,19 +3,21 @@
     "PROPER_NAME": "TODO",
     "NAMES": [
       "todo",
-      "todos"
+      "todos",
+      "todoed",
+      "JUST FOR DEVS, DONT TRANSLATE"
     ],
-    "DESCRIPTION": "TODO: Make your own epic keywords"
+    "DESCRIPTION": "TODO: Remove this keyword from this card."
   },
   {
-     "PROPER_NAME": "SUPPORTED",
+     "PROPER_NAME": "Supported",
      "NAMES": [
        "supported"
      ],
-     "DESCRIPTION": "Healing from The Druid's cards and powers is reduced by #b10% per stack."
+     "DESCRIPTION": "Healing from The Druid's cards and powers is reduced by #b5% per stack."
   },
   {
-     "PROPER_NAME": "RELOAD",
+     "PROPER_NAME": "Reload",
      "NAMES": [
        "reload",
        "reloads"
@@ -23,21 +25,29 @@
      "DESCRIPTION": "#yExhaust this card when played. NL At the start of your next the turn, move #bX cards with #yReload from the exhaust pile into your discard pile."
   },
   {
-     "PROPER_NAME": "PICK",
+     "PROPER_NAME": "E-Reload",
+     "NAMES": [
+       "ethereal-reload",
+       "ethereal-reloads"
+     ],
+     "DESCRIPTION": "If this card is in your hand at the end of turn, it is #yexhausted. NL At the start of your next the turn, move #bX cards with #yReload from the exhaust pile into your discard pile."
+  },
+  {
+     "PROPER_NAME": "Pick",
      "NAMES": [
        "pick"
      ],
-     "DESCRIPTION": "Look at the top #bX cards of your draw pile. Draw #bone of them, and the other cards are moved the bottom of your draw pile."
+     "DESCRIPTION": "Look at the top #bX cards of your draw pile. Choose one and add it to your hand. Other cards go to the bottom of your deck."
   },
   {
-     "PROPER_NAME": "PRIZED",
+     "PROPER_NAME": "Prized",
      "NAMES": [
        "prized"
      ],
-     "DESCRIPTION": "Take an additional #bX damage from the next unblocked attack."
+     "DESCRIPTION": "Take an additional #bX damage from the next unblocked attack. Scales up with cost reductions."
   },
   {
-     "PROPER_NAME": "ON FIRE",
+     "PROPER_NAME": "On_Fire",
      "NAMES": [
        "on fire",
        "on_fire",
@@ -46,27 +56,98 @@
      "DESCRIPTION": "Enemies #yon #yfire take #b9 damage at the start of it's turn."
   },
   {
-     "PROPER_NAME": "THORN",
+     "PROPER_NAME": "Thornkind",
      "NAMES": [
        "thornkind",
        "thornkinds"
      ],
-     "DESCRIPTION": "Hits twice in Wrath instead of dealing double damage."
+     "DESCRIPTION": "Deals extra damage with #yThorn #yStrength"
   },
   {
-     "PROPER_NAME": "MULTIHIT",
+     "PROPER_NAME": "ThornkindSTRENGTH",
+     "NAMES": [
+       "Thornkind STRENGTH",
+       "thornkinds"
+     ],
+     "DESCRIPTION": "Deals extra damage with incres"
+  },
+  {
+     "PROPER_NAME": "Defender",
+     "NAMES": [
+       "defender",
+       "defenders"
+     ],
+     "DESCRIPTION": "Excess hits grant #yBlock and #yFlame #yBarrier NL (Whenever you are attacked this turn, deal #bX damage back.)"
+  },
+  {
+     "PROPER_NAME": "Multi-Hit",
      "NAMES": [
        "multi-hit"
      ],
-     "DESCRIPTION": "Damage dealt by this attack to any target except your initial target ignores your Strength."
+     "DESCRIPTION": "Damage dealt by this attack to any target except your initial target ignores your #yStrength."
   },
   {
-     "PROPER_NAME": "BLOONSEND",
+     "PROPER_NAME": "Bloon_Send",
      "NAMES": [
        "bloon send",
        "bloon_send",
        "bloon_sends"
      ],
-     "DESCRIPTION": "Deals damage after a delay. Damage dealt by the target before this hits reduces the damage."
+     "DESCRIPTION": "Deals damage after a delay. Damage dealt and Block gained by the target before this hits reduces the damage."
+  },
+  {
+     "PROPER_NAME": "Double_Attack",
+     "NAMES": [
+       "double attack",
+       "double attacks",
+     ],
+     "DESCRIPTION": "Doubles this card's Damage, but increses its cost by 1."
+  },
+  {
+     "PROPER_NAME": "Spitting",
+     "NAMES": [
+       "spitting",
+       "spitting",
+     ],
+     "DESCRIPTION": "Add three nonspliting copies of this to your hand, but increses its cost by b#1. Also adds y#stslib:Fleeting."
+  },
+  {
+     "PROPER_NAME": "Nested",
+     "NAMES": [
+       "double attack",
+       "double attacks",
+     ],
+     "DESCRIPTION": "Adds y#Exhaust NL Add a  to your handb#1."
+  },
+  {
+     "PROPER_NAME": "XBLOCK",
+     "NAMES": [
+       "bloontonium__",
+		""
+     ],
+     "DESCRIPTION": "This card's y#Block scales with it's cost."
+  },
+  {
+     "PROPER_NAME": "Charges",
+     "NAMES": [
+       "charge",
+       "charges"
+     ],
+     "DESCRIPTION": "y#stslib:Persist b#!stslib:persist! y#stslib:Exhaustive b#!stslib:ex!"
+  },
+  {
+     "PROPER_NAME": "BloontoniumOrb",
+     "NAMES": [
+       "bloontonium"
+     ],
+     "DESCRIPTION": "Orb: Gains [druidsurv:BloontoniumIcon]."
+  },
+  {
+     "PROPER_NAME": "Charges",
+     "NAMES": [
+       "Charge",
+       "Charges"
+     ],
+     "DESCRIPTION": "y#stslib:Persist b#!stslib:persist! y#stslib:Exhaustive b#!stslib:ex!"
   }
 ]

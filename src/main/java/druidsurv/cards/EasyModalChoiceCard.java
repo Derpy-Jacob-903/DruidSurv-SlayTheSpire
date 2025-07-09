@@ -3,6 +3,8 @@ package druidsurv.cards;
 import basemod.AutoAdd;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static druidsurv.ModFile.makeID;
@@ -19,6 +21,25 @@ public class EasyModalChoiceCard extends AbstractEasyCard {
         this.name = this.originalName = passedName = name;
         this.rawDescription = passedDesc = description;
         this.onUseOrChosen = onUseOrChosen;
+        initializeTitle();
+        initializeDescription();
+    }
+
+    public EasyModalChoiceCard(Runnable onUseOrChosen) {
+        super("", -2, CardType.SKILL, CardRarity.SPECIAL, CardTarget.NONE, CardColor.COLORLESS);
+        CardStrings cardStrings2 = CardCrawlGame.languagePack.getCardStrings(this.cardID);
+        rawDescription = cardStrings2.DESCRIPTION;
+        name = originalName = cardStrings2.NAME;
+        this.onUseOrChosen = onUseOrChosen;
+        initializeTitle();
+        initializeDescription();
+    }
+
+    public EasyModalChoiceCard() {
+        super("", -2, CardType.SKILL, CardRarity.SPECIAL, CardTarget.NONE, CardColor.COLORLESS);
+        CardStrings cardStrings2 = CardCrawlGame.languagePack.getCardStrings(this.cardID);
+        rawDescription = cardStrings2.DESCRIPTION;
+        name = originalName = cardStrings2.NAME;
         initializeTitle();
         initializeDescription();
     }

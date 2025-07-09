@@ -1,3 +1,54 @@
 {
-    
+    "druidsurv:BloontoniumOrb": {
+    "NAME": "Bloontonium",
+    "DESCRIPTION": [
+      "Passive: Gain #b",
+      " [druidsurv:BloontoniumIcon] NL Evoke: Gain #b",
+      " [druidsurv:BloontoniumIcon]"
+    ]
+  },
+  "druidsurv:Light": {
+    "NAME": "Sun",
+    "DESCRIPTION": [
+      "Passive: Whenever you are attacked, deal #b",
+      " damage to the attacker. Stacks between Light orbs. NL Evoke: Deal #b",
+      " Damage to a random enemy, once for each orb Channeled."
+    ]
+  },
+  "druidsurv:MoxOrb": {
+    "NAME": "Mox",
+    "DESCRIPTION": [
+      "Passive: Provides ",
+      ". NL Evoke: Do nothing. NL Mox Orbs are unaffected by #yFocus."
+    ]
+  },
+  "druidsurv:MoxOrbBrittle": {
+    "NAME": "Brittle Mox",
+    "DESCRIPTION": [
+      "Passive: Provides ",
+      ". At the end of your turn, Evoke this Mox. #b NL Evoke: Do nothing. NL Moxes are unaffected by #yFocus."
+    ]
+  },
+  "druidsurv:MoxOrbTap": {
+    "NAME": "Tapped Mox",
+    "DESCRIPTION": [
+      "Passive: Next turn, provides ",
+      ". NL Evoke: Do nothing. NL Moxes are unaffected by #yFocus."
+    ]
+  },
+  "druidsurv:MoxOrbNap": {
+    "NAME": "Transformer Mox",
+    "DESCRIPTION": [
+      "Passive: Provides ",
+      ". NL Next turn this does NOT provide ",
+      ". NL Evoke: Do nothing. NL Moxes are unaffected by #yFocus."
+    ]
+  },
+  "druidsurv:MoxOrbNapTapped": {
+    "NAME": "Transformer Mox (Tapped)",
+    "DESCRIPTION": [
+      "Passive: Next turn, provides ",
+      ". NL Evoke: Do nothing. NL Moxes are unaffected by #yFocus."
+    ]
+  }
 }

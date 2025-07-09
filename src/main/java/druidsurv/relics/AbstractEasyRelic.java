@@ -8,6 +8,7 @@ import druidsurv.util.TexLoader;
 import static druidsurv.ModFile.makeRelicPath;
 import static druidsurv.ModFile.modID;
 
+
 public abstract class AbstractEasyRelic extends CustomRelic {
     public AbstractCard.CardColor color;
 

@@ -5,5 +5,96 @@
             "Gain #b",
             " #yStrength."
         ]
+    },
+     "${ModID}:InstaMonkeyPot": {
+        "NAME": "Insta-Monkey Potion",
+        "DESCRIPTIONS": [
+           "Choose #b1 of #b3 random #yMonkey cards to add to your hand, it costs #b0 this turn.",
+           "Choose #b1 of #b3 random #yMonkey cards and add #b2 copies to your hand, they cost #b0 this turn."
+        ]
+    },
+     "${ModID}:BloonPot": {
+        "NAME": "Bloontonium Potion",
+        "DESCRIPTIONS": [
+            "Choose #b1 of #b3 random #yBloon cards to add to your hand, it costs #b0 this turn and gain it's Block.",
+            "Choose #b1 of #b3 random #yBloon cards and add #b2 copies to your hand, they cost #b0 this turn and gain their Block."
+        ]
+    },
+     "${ModID}:PowerPot": {
+        "NAME": "Monkey Power Potion",
+        "DESCRIPTIONS": [
+            "Choose #b1 of #b3 random #yPower cards to add to your hand, it costs #b0 this turn.",
+            "Choose #b1 of #b3 random #yPower cards and add #b2 copies to your hand, they cost #b0 this turn."
+        ]
+    },
+     "${ModID}:InstinctPot": {
+        "NAME": "Instinct Potion",
+        "DESCRIPTIONS": [
+           "Choose #b1 of #b3 random cards to add to your hand, the other cards are added to the bottom of your deck.",
+           "Choose #b1 of #b3 random cards to add #b",
+	   "copies to your hand, the other cards are also copied and added to the bottom of your deck."
+        ]
+    },
+     "${ModID}:OnFirePot": {
+        "NAME": "Cocktail of Fire",
+        "DESCRIPTIONS": [
+            "Set target #yon #yfire, target(s) already on Fire take #b",
+	     "damage instead.",
+            "Set #b",
+	    "targets #yon #yfire, target(s) already on Fire take #b"
+        ]
+    },
+     "widepotions:${ModID}:OnFirePot": {
+        "NAME": "~Wide~ Cocktail of Fire",
+        "DESCRIPTIONS": [
+            "Set ALL ENEMIES #yon #yfire, targets already on Fire take #b",
+	     "damage instead."
+        ]
+    },
+     "${ModID}:ManaPot": {
+        "NAME": "Mana Shield Pot",
+        "DESCRIPTIONS": [
+            "Gain #b",
+            " #yMana Shield",
+	    "then #yChannel #b",
+	    "Light Orbs"
+        ]
+    },
+     "${ModID}:LightPot": {
+        "NAME": "Essence of Light",
+        "DESCRIPTIONS": [
+            "Gain #b",
+            " #yOrb slots,",
+	    "then #yChannel #b",
+	    "Light Orbs"
+        ]
+    },
+     "${ModID}:QuickReady": {
+        "NAME": "Quick Ready Potion",
+        "DESCRIPTIONS": [
+            "Reduces the delay on the target's Bloons by #b",
+            "."
+        ]
+    },
+     "${ModID}:MaxBloonHeal": {
+        "NAME": "Max Bloon Heal Potion",
+        "DESCRIPTIONS": [
+            "Target's sub-4 delay Bloons gain Health, up to 20/28/50/80.",
+            "Target's sub-4 delay Bloons gain Health, up to 40/56/100/160."
+        ]
+    },
+     "${ModID}:Disappearance": {
+        "NAME": "Disappearance Potion",
+        "DESCRIPTIONS": [
+            "Remove a card from your deck",
+            "Remove 2 cards from your deck"
+        ]
+    },
+     "${ModID}:RedBloonStorm": {
+        "NAME": "Bottled Red Bloon Storm",
+        "DESCRIPTIONS": [
+            "Add 8 Red Bloons to your hand. They exhaust when played.",
+            "Add 16 Red Bloons to your hand. They exhaust when played."
+        ]
     }
 }

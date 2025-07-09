@@ -1,5 +1,6 @@
 package druidsurv.cards.democards.simple;
 
+import basemod.AutoAdd;
 import druidsurv.cards.AbstractEasyCard;
 import com.evacipated.cardcrawl.mod.stslib.cards.interfaces.StartupCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -11,15 +12,17 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import static druidsurv.ModFile.makeID;
 import static druidsurv.util.Wiz.atb;
 
+@AutoAdd.Ignore
 public class StartupBlockCard extends AbstractEasyCard implements StartupCard { // This card implements StartupCard, an extra 'type' of card that adds the ability to trigger at the start of combat.
     public final static String ID = makeID(StartupBlockCard.class.getSimpleName());
     // intellij stuff skill, self, uncommon, , , , , ,
 
     public StartupBlockCard() {
-        super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY); // This card is a 1 cost Common Skill that targets an enemy.
+        super(ID, 1, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ENEMY); // This card is a 1 cost Common Skill that targets an enemy.
         baseDamage = 7;
         baseMagicNumber = magicNumber = 4;
         isMultiDamage = true; // This card attacks ALL enemies, so isMultiDamage is true...
+        setPortraitTextures("druidsurvResources/images/cardui/512/frame_attack_hidden.png", "druidsurvResources/images/cardui/1024/frame_attack_hidden.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

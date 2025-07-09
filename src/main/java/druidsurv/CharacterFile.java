@@ -18,8 +18,9 @@ import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
-import druidsurv.cards.*;
-import druidsurv.relics.TodoItem;
+import druidsurv.cards.starterDruid.*;
+import druidsurv.relics.TodoItemNew;
+import druidsurv.relics.decks.BasicDeck;
 
 import java.util.ArrayList;
 
@@ -28,7 +29,7 @@ import static druidsurv.ModFile.*;
 
 public class CharacterFile extends CustomPlayer {
 
-    static final String ID = makeID("ModdedCharacter");
+    static final String ID = makeID("DruidSurv");
     static final CharacterStrings characterStrings = CardCrawlGame.languagePack.getCharacterString(ID);
     static final String[] NAMES = characterStrings.NAMES;
     static final String[] TEXT = characterStrings.TEXT;
@@ -41,7 +42,7 @@ public class CharacterFile extends CustomPlayer {
                 SHOULDER1,
                 SHOULDER2,
                 CORPSE,
-                getLoadout(), 20.0F, -10.0F, 166.0F, 327.0F, new EnergyManager(3));
+                getLoadout(), 50.0F, -10.0F, 261, 290, new EnergyManager(3));
 
 
         dialogX = (drawX + 0.0F * Settings.scale);
@@ -51,7 +52,7 @@ public class CharacterFile extends CustomPlayer {
     @Override
     public CharSelectInfo getLoadout() {
         return new CharSelectInfo(NAMES[0], TEXT[0],
-                70, 110, 2, 0, 5, this, getStartingRelics(),
+                72, 72, 2, 0, 5, this, getStartingRelics(),
                 getStartingDeck(), false);
     }
 
@@ -64,24 +65,25 @@ public class CharacterFile extends CustomPlayer {
         for (int i = 0; i < 2; i++) {
             retVal.add(HuntressMonkey.ID);
         }
+        for (int i = 0; i < 1; i++) {
+            retVal.add(HeartOfThunder.ID);
+        }
+        for (int i = 0; i < 1; i++) {
+            retVal.add(Harden.ID);
+        }
         for (int i = 0; i < 3; i++) {
             retVal.add(Defend.ID);
         }
         for (int i = 0; i < 2; i++) {
             retVal.add(OliveBloon.ID);
         }
-        for (int i = 0; i < 1; i++) {
-            retVal.add(HeartOfThunder.ID);
-        }
-        for (int i = 0; i < 1; i++) {
-            retVal.add(HeartOfThunder.ID);
-        }
         return retVal;
     }
 
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
-        retVal.add(TodoItem.ID);
+        retVal.add(BasicDeck.ID);
+        retVal.add(TodoItemNew.ID);
         return retVal;
     }
 
@@ -93,17 +95,9 @@ public class CharacterFile extends CustomPlayer {
     }
 
     private static final String[] orbTextures = {
-            makeCharacterPath("mainChar/orb/layer1.png"),
-            makeCharacterPath("mainChar/orb/layer2.png"),
-            makeCharacterPath("mainChar/orb/layer3.png"),
-            makeCharacterPath("mainChar/orb/layer4.png"),
-            makeCharacterPath("mainChar/orb/layer4.png"),
-            makeCharacterPath("mainChar/orb/layer6.png"),
-            makeCharacterPath("mainChar/orb/layer1d.png"),
-            makeCharacterPath("mainChar/orb/layer2d.png"),
-            makeCharacterPath("mainChar/orb/layer3d.png"),
-            makeCharacterPath("mainChar/orb/layer4d.png"),
-            makeCharacterPath("mainChar/orb/layer5d.png"),
+            makeCharacterPath("mainChar/orb/CoinIcon1.png"),
+            makeCharacterPath("mainChar/orb/void.png"),
+            makeCharacterPath("mainChar/orb/CoinDepletedIconSprite1.png")
     };
 
     @Override
@@ -113,7 +107,7 @@ public class CharacterFile extends CustomPlayer {
 
     @Override
     public int getAscensionMaxHPLoss() {
-        return 8;
+        return 11;
     }
 
     @Override
@@ -138,8 +132,8 @@ public class CharacterFile extends CustomPlayer {
 
     @Override
     public AbstractCard getStartCardForEvent() {
-        System.out.println("YOU NEED TO SET getStartCardForEvent() in your " + getClass().getSimpleName() + " file!");
-        return null;
+        //System.out.println("YOU NEED TO SET getStartCardForEvent() in your " + getClass().getSimpleName() + " file!");
+        return new HeartOfThunder();
     }
 
     @Override
@@ -165,9 +159,9 @@ public class CharacterFile extends CustomPlayer {
     @Override
     public AbstractGameAction.AttackEffect[] getSpireHeartSlashEffect() {
         return new AbstractGameAction.AttackEffect[]{
-                AbstractGameAction.AttackEffect.FIRE,
-                AbstractGameAction.AttackEffect.BLUNT_HEAVY,
-                AbstractGameAction.AttackEffect.FIRE};
+                AbstractGameAction.AttackEffect.LIGHTNING,
+                AbstractGameAction.AttackEffect.SLASH_HEAVY,
+                AbstractGameAction.AttackEffect.LIGHTNING};
     }
 
     @Override
@@ -181,13 +175,43 @@ public class CharacterFile extends CustomPlayer {
     }
 
     public static class Enums {
-        //TODO: Change these.
         @SpireEnum
-        public static AbstractPlayer.PlayerClass DRUIDSURV;
+        public static PlayerClass DRUIDSURV;
+        @SpireEnum
+        public static PlayerClass NEMDRUID;
+        @SpireEnum
+        public static PlayerClass STRIKER;
+        @SpireEnum
+        public static PlayerClass ADORA;
         @SpireEnum(name = "DRUIDSURV_COLOR")
         public static AbstractCard.CardColor DRUIDSURV_COLOR;
-        @SpireEnum(name = "DRUIDSURV_COLOR")
+        @SpireEnum(name = "MONKEY_COLOR")
+        public static AbstractCard.CardColor MONKEY_COLOR;
+        @SpireEnum(name = "NEMDRUID_COLOR")
+        public static AbstractCard.CardColor NEMDRUID_COLOR;
+        @SpireEnum(name = "MOXES")
+        public static AbstractCard.CardColor NEMDRUID_MOX_COLOR;
+        @SpireEnum(name = "THE STRIKER")
+        public static AbstractCard.CardColor STRIKER_COLOR;
+        @SpireEnum(name = "THE HIGH PRIESTESS")
+        public static AbstractCard.CardColor ADORA_COLOR;
         @SuppressWarnings("unused")
+        @SpireEnum(name = "DRUIDSURV_COLOR")
         public static CardLibrary.LibraryType LIBRARY_COLOR;
+        @SuppressWarnings("unused")
+        @SpireEnum(name = "MONKEY_COLOR")
+        public static CardLibrary.LibraryType LIBRARY_COLOR_M;
+        @SuppressWarnings("unused")
+        @SpireEnum(name = "NEMDRUID_COLOR")
+        public static CardLibrary.LibraryType LIBRARY_COLOR_NEM;
+        @SuppressWarnings("unused")
+        @SpireEnum(name = "MOXES")
+        public static CardLibrary.LibraryType LIBRARY_MOX_COLOR;
+        @SuppressWarnings("unused")
+        @SpireEnum(name = "THE STRIKER")
+        public static CardLibrary.LibraryType LIBRARY_COLOR_STRIKER;
+        @SuppressWarnings("unused")
+        @SpireEnum(name = "THE HIGH PRIESTESS")
+        public static CardLibrary.LibraryType LIBRARY_COLOR_ADORA;
     }
 }

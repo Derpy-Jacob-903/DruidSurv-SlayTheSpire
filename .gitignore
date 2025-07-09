@@ -81,3 +81,5 @@ $RECYCLE.BIN/
 
 # Spriter files
 *.autosave.scml
+/src/main/java/druidsurv/cards/abilities/
+/src/main/resources/druidsurvResources/images/cardsArt

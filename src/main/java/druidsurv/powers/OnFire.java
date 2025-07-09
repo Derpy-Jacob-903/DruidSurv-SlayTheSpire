@@ -21,14 +21,14 @@ public class OnFire extends AbstractEasyPower implements HealthBarRenderPower {
             super(POWER_ID, "On Fire", TYPE, false, owner, amount);
         }
 
-        public void atStartOfTurn()
+    public void atStartOfTurn()
         {
-            addToBot((AbstractGameAction)new LoseHPAction(this.owner, this.owner, 9, AbstractGameAction.AttackEffect.FIRE));
+            addToBot((AbstractGameAction)new LoseHPAction(this.owner, this.owner, this.amount, AbstractGameAction.AttackEffect.FIRE));
         }
 
         public void updateDescription()
         {
-            this.description = this.DESCRIPTIONS[0] + 9 + this.DESCRIPTIONS[1];
+            this.description = this.DESCRIPTIONS[0] + this.amount + this.DESCRIPTIONS[1];
         }
 
         public AbstractPower makeCopy() {

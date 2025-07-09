@@ -1,241 +1,233 @@
 {
-  "druidsurv:Strike": {
-    "NAME": "Strike",
-    "DESCRIPTION": "#y${modID}:Thornkind. Deal !D! damage."
+  "druidsurv:AmeliaPick": {
+    "NAME": "For My Next Trick",
+    "DESCRIPTION": "Pick 2 NL If it's a Bloon, it costs 1 less [E]",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand. NL (Bloons cost 1 less [E])"
+    ],
+    "FLAVOR": "Exotic Power - Amelia"
   },
-  "druidsurv:Defend": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
+  "druidsurv:ArrowShot": {
+    "NAME": "Arrow Shot",
+    "DESCRIPTION": "Retain. Deal !D! damage.",
+    "FLAVOR": "Hero Ability - Quincy",
+    "EXTENDED_DESCRIPTION": [
+      "Retain. Deal !D! damage. NL Costs 0 apon playing a Bloon and costs 1 apon playing an Arrow Shot."
+    ]
   },
-  "druidsurv:DartMonkey": {
-    "NAME": "Dart Monkey",
-    "DESCRIPTION": "#yDartkind. Deal !D! damage."
+  "druidsurv:AspiringFan": {
+    "NAME": "Aspiring Fan",
+    "DESCRIPTION": "Ethereal. Deal !D! damage. NL If Fatal, remove this from your deck and add a Super Monkey.",
+    "FLAVOR": "Primary Monkey - Dart"
   },
-  "druidsurv:Huntress": {
-    "NAME": "Huntress Monkey",
-    "DESCRIPTION": "Strike. Deal !D! damage."
+  "druidsurv:BFB": {
+    "NAME": "BFB",
+    "DESCRIPTION": ". Gain !B! Block. Deal !D! damage in 4 turns."
   },
-  "druidsurv:DartMonkeyTwins": {
-    "NAME": "Dart Monkey Twins",
-    "DESCRIPTION": "#yDartkind. Deal !D! damage, add two Dart Monkey Twin to your hand. Exhaust."
+  "druidsurv:BFG": {
+    "NAME": "Preon Accumulator",
+    "DESCRIPTION": "Ethereal. !${modID}:Reload! NL If you have a Plasma Orb, remove it and deal !D! damage. NL On Exhaust: Channel !M! Plasma.",
+    "FLAVOR": "Equipment - Druid"
   },
-  "druidsurv:DartMonkeyTwin": {
-    "NAME": "Dart Monkey Twin",
-    "DESCRIPTION": "#yDartkind. Deal !D! damage."
+  "druidsurv:Ball": {
+    "NAME": "Ball Lightning",
+    "DESCRIPTION": "Deal !D! damage. Channel !M! Lightning."
   },
-  "druidsurv:GlaiveRicochet": {
-    "NAME": "Glaive Ricochet",
-    "DESCRIPTION": "Deal !D! damage and deal !druidsurv:sd! damage to ALL OTHER enemies, !M! times"
+  "druidsurv:BananaFarm": {
+    "NAME": "Banana Farm",
+    "DESCRIPTION": "Next turn, gain [E] [E] .",
+    "FLAVOR": "Support Monkey - Farm"
+  },
+  "druidsurv:BananaPlantation": {
+    "NAME": "Banana Plantation",
+    "DESCRIPTION": "Next !M! times you draw, gain [E] .",
+    "FLAVOR": "Support Monkey - Farm"
+  },
+  "druidsurv:BigOne": {
+    "NAME": "The Big One",
+    "DESCRIPTION": "Deal !D! damage to a random enemy.",
+    "FLAVOR": "Military Monkey - Mortar"
+  },
+  "druidsurv:BionicBoomerang": {
+    "NAME": "Bionic Boomerang",
+    "DESCRIPTION": "Ethereal. !${modID}:Reload! Deal !D! damage X times."
+  },
+  "druidsurv:BionicBoomerangold": {
+    "NAME": "Bionic Boomerang",
+    "DESCRIPTION": "Ethereal. !${modID}:Reload! Deal !D! damage X times. NL When this card is Exhausted, it's cost is set to 2."
+  },
+  "druidsurv:BlackBloon": {
+    "NAME": "Black Bloon",
+    "DESCRIPTION": "Gain !B! Block. Next turn, draw 2 additional cards.",
+    "FLAVOR": "Thermal Bloon - Block/Draw"
+  },
+  "druidsurv:BlackVoidShooter": {
+    "NAME": "Black Void Shooter",
+    "DESCRIPTION": "Exhaust non-Large Bloons in your hand, and Channel 1 Dark with its Evoke damage set to the .",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this Monkey, it needs non-Large Bloons in my hand."
+    ],
+    "FLAVOR": "Monkey - Black Void Shooter"
+  },
+  "druidsurv:BlackVoidShooterOld": {
+    "NAME": "Black Void Shooter",
+    "DESCRIPTION": "!${modID}:Corrupts! Bloonchippers. NL Exhaust non-Large Bloons in your hand, then, in !M! turns, deal the total damage of the Exhausted Bloons.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ],
+    "FLAVOR": "Monkey - Black Void Shooter"
+  },
+  "druidsurv:BlockCache": {
+    "NAME": "Bloontonium Cache",
+    "DESCRIPTION": "Gain !B!(X+1) Block. NL Exhaust.",
+    "FLAVOR": "Basic Power"
+  },
+  "druidsurv:BloontoniumCache": {
+    "NAME": "Bloontonium Cache",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust.",
+    "FLAVOR": "Basic Power"
+  },
+  "druidsurv:Bloonchipper": {
+    "NAME": "Bloonchipper",
+    "DESCRIPTION": "Exhaust non-Large Bloons in your hand, then gain the Block of the Exhausted Bloons in Gold.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this Monkey, it needs non-Large Bloons in my hand."
+    ],
+    "FLAVOR": "Monkey - Bloonchipper"
+  },
+  "druidsurv:BloontoniumGasBloon": {
+    "NAME": "Bloontonium Gas Bloon",
+    "DESCRIPTION": "Gain !M!X Block when hit."
+  },
+  "druidsurv:BloontoniumGasBloonOldIThink": {
+    "NAME": "Energy Gas Bloon",
+    "DESCRIPTION": "Gain 6 Block and Lose 2 Focus. NL Whenever you are attacked, gain [E], until the end of your next turn. Exhaust."
   },
   "druidsurv:BlueBloon": {
     "NAME": "Blue Bloon",
-    "DESCRIPTION": "Gain !B!X Block. Deal !D! damage at the end of your next turn."
+    "DESCRIPTION": "Gain !B! Block. Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:BolsteredBloon": {
+    "NAME": "Bolstered Bloon",
+    "DESCRIPTION": "Gain !B! Shield when you play a Bloon. NL At the end of your turn, lose 1 Dexterity. NL Exhaust."
   },
   "druidsurv:Boomerang": {
     "NAME": "Boomerang Monkey",
     "DESCRIPTION": "Deal !D! damage and deal !druidsurv:sd! damage to another enemy."
   },
-  "druidsurv:Mortar": {
-    "NAME": "Mortar Monkey",
-    "DESCRIPTION": "Deal !D! damage to a random enemy."
-  },
-  "druidsurv:SpicyMortar": {
-    "NAME": "Burny Stuff Mortar",
-    "DESCRIPTION": "Deal !D! damage to a random enemy. It is set #y${modID}:On_Fire."
-  },
-  "druidsurv:OliveBloon": {
-    "NAME": "Olive Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B! Block. Deal !D! damage at the end of your next turn."
-  },
-  "druidsurv:PinkBloon": {
-    "NAME": "Pink Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. Deal !D! damage at the end of your turn."
-  },
-  "druidsurv:RedBloon": {
-    "NAME": "Red Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. Deal !D! damage at the end of your next turn."
-  },
-  "druidsurv:Restock": {
-    "NAME": "Restock",
-    "DESCRIPTION": "Draw !M! cards."
-  },
-  "druidsurv:RustedKey": {
-    "NAME": "Rusted Key",
-    "DESCRIPTION": "Gain a random card."
-  },
-  "druidsurv:SuperMonkey": {
-    "NAME": "Super Monkey",
-    "DESCRIPTION": "#yEthereal. #y${modID}:Prized. Deal !D! damage 3 times."
-  },
-  "druidsurv:SupplyDrop": {
-    "NAME": "Supply Drop",
-    "DESCRIPTION": "Draw !M! cards."
-  },
-  "druidsurv:TackShooter": {
-    "NAME": "Tack Shooter",
-    "DESCRIPTION": "Deal !D! damage twice."
-  },
-  "druidsurv:TripleDart": {
-    "NAME": "Triple Dart",
-    "DESCRIPTION": "Deal !D! damage."
-  },
-  "druidsurv:WhiteBloon": {
-    "NAME": "White Bloon",
-    "DESCRIPTION": "Draw !M! cards."
-  },
-  "druidsurv:YellowBloon": {
-    "NAME": "Yellow Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage at the end of your next turn."
-  },
-  "druidsurv:GreenBloon": {
-    "NAME": "Green Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage at the end of your next turn."
-  },
-  "druidsurv:UndeadBloon": {
-    "NAME": "Undead Bloon",
-    "DESCRIPTION": "Deal !D! damage at the end of your next turn. Exhaust."
-  },
-  "druidsurv:Necromancer": {
-    "NAME": "Necromancer",
-    "DESCRIPTION": "Add a Undead Bloon "
+  "druidsurv:CashDrop": {
+    "NAME": "Cash Drop",
+    "DESCRIPTION": "Gain [E] . Exhaust.",
+    "FLAVOR": "Basic Power"
   },
   "druidsurv:CeramicBloon": {
     "NAME": "Ceramic Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage after 2 turns."
+    "DESCRIPTION": ". Gain !B! Block. NL Deal !D! damage after 2 turns."
   },
-  "druidsurv:RainbowBloon": {
-    "NAME": "Rainbow Bloon",
-    "DESCRIPTION": "#y${modID}:Bloon_Send. Gain !B!X Block. NL Deal !D! damage at the end of your next turn."
+  "druidsurv:ChargeBloon": {
+    "NAME": "Charge Bloon",
+    "DESCRIPTION": ". Gain !B! Block. NL Deal !D! damage at the end of your next turn, or at the end of your turn for [E]"
+  },
+  "druidsurv:ColdSnapA": {
+    "NAME": "Cold Snap",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Frozen.",
+    "EXTENDED_DESCRIPTION": [
+      "Frozen: This creature's bloons don't reduce their delay and don't take damage."
+    ]
+  },
+  "druidsurv:ColdSnapB": {
+    "NAME": "Cold Snap",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Frozen.",
+    "EXTENDED_DESCRIPTION": [
+      "Frozen: This creature's bloons don't reduce their delay and don't take damage."
+    ]
   },
   "druidsurv:Crossbow": {
     "NAME": "Crossbow Monkey",
-    "DESCRIPTION": "Deal !D! damage twice."
+    "DESCRIPTION": "Dartkind. Deal !D! damage twice.",
+    "FLAVOR": "Primary Monkey - Dart"
   },
-  "druidsurv:SharpShooter": {
-    "NAME": "Sharp Shooter",
-    "DESCRIPTION": "Deal !D!*2 damage, then deal !D! damage twice."
+  "druidsurv:CyanBloon": {
+    "NAME": "Ice Bloon",
+    "DESCRIPTION": "Channel !M! Frost. NL Draw !M! cards.",
+    "FLAVOR": "Thermal Bloon - Orb/Draw"
   },
-  "druidsurv:Sniper": {
-    "NAME": "Sniper",
-    "DESCRIPTION": "Deal !D! damage."
+  "druidsurv:DarkBloon": {
+    "NAME": "Dark Bloon",
+    "DESCRIPTION": ". NL Channel !M! Dark. NL Deal !D! damage at the end of your next turn.",
+    "FLAVOR": "Void Bloon - Orb/Attack"
   },
-  "druidsurv:Strengthenator": {
-    "NAME": "Strengthenator",
-    "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  "druidsurv:DartMonkey": {
+    "NAME": "Dart Monkey",
+    "DESCRIPTION": "Dartkind. Deal !D! damage.",
+    "FLAVOR": "Primary Monkey - Dart"
   },
-  "druidsurv:StunGasBloon": {
-    "NAME": "Paralysis Gas Bloon",
-    "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  "druidsurv:DartMonkeyTwin": {
+    "NAME": "Dart Monkey Twin",
+    "DESCRIPTION": "Dartkind. Deal !D! damage.",
+    "FLAVOR": "Primary Monkey - Dart"
   },
-  "druidsurv:BloontoniumGasBloon": {
-    "NAME": "Bloontonium Gas Bloon",
-    "DESCRIPTION": "Gain !M!(X+1) Block when hit. NL (Where X is the cost of this card.)"
+  "druidsurv:DartMonkeyTwins": {
+    "NAME": "Dart Monkey Twins",
+    "DESCRIPTION": "Dartkind. Deal !D! damage, add two \"Dart Monkey Twin\"s to your hand. Exhaust.",
+    "FLAVOR": "Primary Monkey - Dart"
   },
-  "druidsurv:BloontoniumGasBloonOldIThink": {
-    "NAME": "Energy Gas Bloon",
-    "DESCRIPTION": "Gain 6 Block and Lose 2 Focus. NL Whenever you are attacked, gain [R], until the end of your next turn. Exhaust."
+  "druidsurv:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block.",
+    "FLAVOR": "Defend - Druid"
   },
-  "druidsurv:ShieldGasBloon": {
-    "NAME": "Shield Gas Bloon",
-    "DESCRIPTION": "Gain !M! Mana Shield when hit."
+  "druidsurv:NemDefend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block.",
+    "FLAVOR": "Defend - Mage"
   },
-  "druidsurv:WeakeningGasBloon": {
-    "NAME": "Weakening Gas Bloon",
-    "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  "druidsurv:EmptyVessel": {
+    "NAME": "Empty Vessel",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! [druidsurv:BloontoniumIcon] NL Choose 1 of 3 random #yMox cards to add into your hand.",
+    "FLAVOR": "Technology Vessel - Block/Mox"
   },
-  "druidsurv:VolatileBloon": {
-    "NAME": "Volatile Bloon",
-    "DESCRIPTION": "Gain !B!X Block. After taking 20 damage, deal 10 damage to yourself and ALL enemies. Exhaust."
+  "druidsurv:DefendC": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block.",
+    "FLAVOR": "Defend"
   },
-  "druidsurv:BolsteredBloon": {
-    "NAME": "Volatile Bloon",
-    "DESCRIPTION": "Gain !B! Block and !B! Mana Shield when you play a Bloon this turn. At the end of your turn, lose 2 Dexterity. Exhaust."
+  "druidsurv:DiscardX": {
+    "NAME": "Discard",
+    "DESCRIPTION": "Innate. Retain. Discard up to 5 cards, then draw that many. NL There is no escape from this Curse.",
+    "FLAVOR": "Curse"
   },
-  "druidsurv:BlockCache": {
-    "NAME": "Bloontonium Cache",
-    "DESCRIPTION": "Gain !B!(X+1) Block. NL (Where X is the cost of this card.) NL Exhaust."
+  "druidsurv:DiscountBloon": {
+    "NAME": "Discount Bloon",
+    "DESCRIPTION": "stslib:Persist !stslib:persist! stslib:Exhaustive !stslib:ex! . NL Reduce the cost of Discount Bloons in hand by one and deal !D! damage after 2 turns."
   },
-  "druidsurv:CashDrop": {
-    "NAME": "Cash Drop",
-    "DESCRIPTION": "Gain [R]. Exhaust."
+  "druidsurv:DiscountBloonC": {
+    "NAME": "Discount Bloon",
+    "DESCRIPTION": "Exhausts if 0 cost. . NL Reduce the cost of Discount Bloons in hand by one and deal !D! damage after 2 turns."
   },
-  "druidsurv:ManaShield": {
-    "NAME": "Mana Shield",
-    "DESCRIPTION": "Gain !B! Block and !B! Mana Shield. Exhaust."
+  "druidsurv:DiscountBloonOld": {
+    "NAME": "Discount Bloon",
+    "DESCRIPTION": "At the start of combat, add 2 copies to your drawpile. NL Exhausts if 0 cost. . NL Reduce the cost of Discount Bloons in hand by one and deal !D! damage after 2 turns."
   },
-  "druidsurv:WizardMonkey": {
-    "NAME": "Wizard Monkey",
-    "DESCRIPTION": "#y${modID}:Prized. Deal !D! damage. At the start of your turn, increase this card's damage by !M! for this combat."
-  },
-  "druidsurv:QuincyActionFigure": {
-    "NAME": "Quincy Action Figure",
-    "DESCRIPTION": "Gain [R][R][R] when exuasted."
-  },
-  "druidsurv:ArchersInstinct": {
-    "NAME": "Archer's Instinct",
-    "DESCRIPTION": "#yPick 3.",
-    "EXTENDED_DESCRIPTION": [
-      "Choose a card to add into your hand."
-    ]
-  },
-  "druidsurv:NaturesClarity": {
-    "NAME": "Nature's Clarity",
-    "DESCRIPTION": "#yPick 4. NL Gain !M! Mana Shield per [R] cost of picked card",
-    "EXTENDED_DESCRIPTION": [
-      "Choose a card to add into your hand."
-    ]
+  "druidsurv:DiscountBloonOlder": {
+    "NAME": "Discount Bloon",
+    "DESCRIPTION": "Exhaust if free. . NL Deal !D! damage after 2 turns, NL reduce the cost of Discount Bloons in hand by one, and add a cheaper Ethereal Discount Bloon to your hand."
   },
   "druidsurv:Divination": {
     "NAME": "Divination",
-    "DESCRIPTION": "#yPick 3. NL If it's a Monkey, gain !M! Strength",
+    "DESCRIPTION": "Pick 3. NL If it's a Monkey, gain !M! Strength",
     "EXTENDED_DESCRIPTION": [
-      "Choose a card to add into your hand."
+      "Choose a card to add into your hand. NL (Monkeys grant !M! Strength)"
     ]
   },
-  "druidsurv:HeartThunder": {
-    "NAME": "Heart of Thunder",
-    "DESCRIPTION": "Deal !D! damage. Channel !M! Lightning."
-  },
-  "druidsurv:JunglesBounty": {
-    "NAME": "Jungle's Bounty Druid",
-    "DESCRIPTION": "When you gain [R], Heal !M! HP, lose !M! focus, and gain 1 Supported."
+  "druidsurv:DrawAndShiv": {
+    "NAME": "Draw and Shiv",
+    "DESCRIPTION": "Draw 1 card. NL Add 1 *Shiv into your hand.",
+    "FLAVOR": "Skill - TODO"
   },
   "druidsurv:DruidCard": {
     "NAME": "Druid",
-    "DESCRIPTION": "Heal !M! HP, and gain 1 Supported. NL "
-  },
-  "druidsurv:FuckYou": {
-    "NAME": "Heart of Vengeance Druid",
-    "DESCRIPTION": "Add 2 Vengeful Thorn to your hand. When attacked, increase every copy of Vengeful Thorn's damage by !M! this combat."
-  },
-  "druidsurv:FuckYouThorn": {
-    "NAME": "Vengeful Thorn",
-    "DESCRIPTION": "Thornkind. Deal 7 damage."
-  },
-  "druidsurv:ExampleTwoAmountPowerCard": {
-    "NAME": "Two Amount Power",
-    "DESCRIPTION": "At the start of your turn, gain !M! Strength and !druidsurv:m2! Dexterity."
-  },
-  "druidsurv:InlinePowerDemo": {
-    "NAME": "Inline Power",
-    "DESCRIPTION": "Strikes deal !M! more damage. NL At the end of your turn, gain !M! Block.",
-    "EXTENDED_DESCRIPTION": [
-      "Strike+, Block+",
-      "#yStrikes deal #b",
-      " additional damage. At the end of your turn, gain #b",
-      " #yBlock."
-    ]
-  },
-  "druidsurv:SelectCardsPlusCardMods": {
-    "NAME": "Cool Card Stuff",
-    "DESCRIPTION": "Choose from 1 of 3 cost 0 cards from any class. NL Add it into your hand. NL It gains Ethereal and Exhaust.",
-    "EXTENDED_DESCRIPTION": [
-      "Choose a card to add into your hand with Ethereal and Exhaust."
-    ]
-  },
-  "druidsurv:EasyXCostDemo": {
-    "NAME": "Easy X Cost",
-    "DESCRIPTION": "{@@}Deal !D! damage X{!M!|>0=+!M!} times. NL Gain X{!M!|>0=+!M!} Strength. NL Exhaust."
+    "DESCRIPTION": "Heal !M! HP. NL Add !druidsurv:m2! Thorn Strikes to your hand."
   },
   "druidsurv:EasyModalChoiceDemo": {
     "NAME": "Easy Modal Choice",
@@ -247,22 +239,937 @@
       "Strength",
       "Gain ",
       " Strength."
+    ],
+    "FLAVOR": "Skill - TODO"
+  },
+  "druidsurv:EasyXCostDemo": {
+    "NAME": "Easy X Cost",
+    "DESCRIPTION": "{@@}Deal !D! damage X{!M!|>0=+!M!} times. NL Gain X{!M!|>0=+!M!} Strength. NL Exhaust."
+  },
+  "druidsurv:Embrittlement": {
+    "NAME": "Embrittlement",
+    "DESCRIPTION": "Apply !M! Vulnerable to ALL enemies NL Add Glass to all cards in your hand",
+    "EXTENDED_DESCRIPTION": [
+      "Glass: 25% chance to remove from your deck on play."
     ]
   },
-  "druidsurv:DrawAndShiv": {
-    "NAME": "Draw and Shiv",
-    "DESCRIPTION": "Draw 1 card. NL Add 1 *Shiv into your hand."
+  "druidsurv:EnhancedReflexes": {
+    "NAME": "Enhanced Reflexes",
+    "DESCRIPTION": "Deal !D! damage NL Draw !M! cards",
+    "FLAVOR": "Basic Power - Quincy"
+  },
+  "druidsurv:ExampleTwoAmountPowerCard": {
+    "NAME": "Two Amount Power",
+    "DESCRIPTION": "At the start of your turn, gain !M! Strength and !druidsurv:m2! Dexterity."
+  },
+  "druidsurv:ExpertNegotiator": {
+    "NAME": "Expert Negotiator",
+    "DESCRIPTION": "Add ANY Monkey to your hand. It gains Rental. (When a card with Rental is drawn, lose [E] .)",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a Monkey to add into your hand. (When it is drawn, you will lose [E])."
+    ]
+  },
+  "druidsurv:ExtremeHeat": {
+    "NAME": "Extreme Heat",
+    "DESCRIPTION": "Increase the Attack of ALL your Monkeys by 1 this combat."
+  },
+  "druidsurv:Fireball": {
+    "NAME": "Fireball",
+    "DESCRIPTION": "Set target on fire. Can't target enemies already on fire.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card on this enemy!"
+    ],
+    "FLAVOR": "Hero Ability - Gwendolin"
+  },
+  "druidsurv:FlameStrike": {
+    "NAME": "Flame Strike",
+    "DESCRIPTION": "Retain. Set ALL enemies on fire. Enemies already on Fire take !D! Damage instead",
+    "FLAVOR": "Hero Ability - Gwendolin"
+  },
+  "druidsurv:FlurryOfArrows": {
+    "NAME": "Flurry of Arrows",
+    "DESCRIPTION": "Retain. Deal !D! damage to ALL enemies",
+    "FLAVOR": "Hero Ability - Quincy"
+  },
+  "druidsurv:FuckYouDruid": {
+    "NAME": "Heart of Vengeance Druid",
+    "DESCRIPTION": "Add !druidsurv:m2! Thorn Strikes to your hand. When attacked, increase druidsurv:Thornkind cards' damage by !M! this combat."
+  },
+  "druidsurv:FuckYouThorn": {
+    "NAME": "Vengeful Thorn",
+    "DESCRIPTION": "druidsurv:Thornkind. Deal 7 damage."
+  },
+  "druidsurv:GlaiveRicochet": {
+    "NAME": "Glaive Ricochet",
+    "DESCRIPTION": "Deal !D! damage and deal !druidsurv:sd! damage to ALL OTHER enemies, !M! times"
+  },
+  "druidsurv:GreenBloon": {
+    "NAME": "Green Bloon",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage at the end of your next turn.",
+    "FLAVOR": "Basic Bloon - Block/Attack"
+  },
+  "druidsurv:Harden": {
+    "NAME": "Harden Thorns",
+    "DESCRIPTION": "Thornkind attacks gain 1 Strength",
+    "FLAVOR": "Skill"
+  },
+  "druidsurv:HeartThunder": {
+    "NAME": "Heart of Thunder",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. Channel !M! Lightning.",
+    "FLAVOR": "Hero Ability - Druid"
+  },
+  "druidsurv:HeartThunderC": {
+    "NAME": "Heart of Thunder",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. Channel !M! Lightning.",
+    "FLAVOR": "Hero Ability - Druid"
+  },
+  "druidsurv:QuickReady": {
+    "NAME": "Heart of Thunder",
+    "DESCRIPTION": "Reduces the delay on target's He Bloon by !M!",
+    "EXTENDED_DESCRIPTION": [
+      "NL (Target Bloon: ",
+	  " Health, ",
+	  " to ",
+	  " Delay) "
+    ]
+  },
+  "druidsurv:HeatItUp": {
+    "NAME": "Heat It Up",
+    "DESCRIPTION": "Increase the Attack of ALL your Monkeys by 1 this combat."
+  },
+  "druidsurv:Huntress": {
+    "NAME": "Huntress Monkey",
+    "DESCRIPTION": "Strikish. Deal !D! damage.",
+    "FLAVOR": "Monkey - Huntress"
+  },
+  "druidsurv:IceMonkey": {
+    "NAME": "Ice Monkey",
+    "DESCRIPTION": "Apply !M! Frozen to yourself.",
+    "EXTENDED_DESCRIPTION": [
+      "Frozen: This creature's bloons don't reduce their delay and don't take damage."
+    ]
+  },
+  "druidsurv:IceShards": {
+    "NAME": "Ice Shards",
+    "DESCRIPTION": "Whenever you are attacked, deal !M! damage back and apply !M! Frozen.",
+    "EXTENDED_DESCRIPTION": [
+      "Frozen: This creature's bloons don't reduce their delay and don't take damage."
+    ]
+  },
+  "druidsurv:InlinePowerDemo": {
+    "NAME": "Inline Power",
+    "DESCRIPTION": "Strikes deal !M! more damage. NL At the end of your turn, gain !M! Block.",
+    "EXTENDED_DESCRIPTION": [
+      "Strike+, Block+",
+      "#yStrikes deal #b",
+      " additional damage. At the end of your turn, gain #b",
+      " #yBlock."
+    ],
+    "FLAVOR": "Power - TODO"
+  },
+  "druidsurv:ItIsAllOnFireNow": {
+    "NAME": "It's All On Fire Now",
+    "DESCRIPTION": "Set target on fire. Enemies already on Fire take !D! Damage instead",
+    "FLAVOR": "Basic Power - Gwendolin"
+  },
+  "druidsurv:JunglesBounty": {
+    "NAME": "Jungle's Bounty Druid",
+    "DESCRIPTION": "When you gain [E] , Heal !M! HP.",
+    "FLAVOR": "Skill"
+  },
+  "druidsurv:MOAB": {
+    "NAME": "MOAB",
+    "DESCRIPTION": ". Gain !B! Block. Deal !D! damage in 4 turns."
+  },
+  "druidsurv:MOABMauler": {
+    "NAME": "MOAB Mauler",
+    "DESCRIPTION": "Deal !D! damage. NL If the target has 100+ incoming bloons, deal !druidsurv:sd! damage instead."
+  },
+  "druidsurv:ManaShield": {
+    "NAME": "Mana Shield",
+    "DESCRIPTION": "Gain !B! Shield. NL Exhaust."
+  },
+  "druidsurv:Marketplace": {
+    "NAME": "Marketplace",
+    "DESCRIPTION": "At the start of your turn, gain [E] for your 1st, 3rd, 6th, and 10th Monkey or Strike in your hand."
+  },
+  "druidsurv:Mortar": {
+    "NAME": "Mortar Monkey",
+    "DESCRIPTION": "Deal !D! damage to a random enemy.",
+    "FLAVOR": "Military Monkey - Mortar"
+  },
+  "druidsurv:MultiCardPreviewAndDrawCallback": {
+    "NAME": "Previews and Callbacks",
+    "DESCRIPTION": "{@@}Shuffle *Smite{!Upgrades!|>0=+} and *Safety{!Upgrades!|>0=+} into your draw pile. NL Draw 1 card. NL If it's Colorless, deal !D! damage to ALL enemies."
+  },
+  "druidsurv:Necromancer": {
+    "NAME": "Necromancer",
+    "DESCRIPTION": "At the start of your turn, Add a Undead Bloon to your hand."
+  },
+  "druidsurv:NonFuckYouThorn": {
+    "NAME": "Thorn",
+    "DESCRIPTION": "Thornkind. Deal 14 damage."
+  },
+  "druidsurv:ObynPick": {
+    "NAME": "Nature's Clarity",
+    "DESCRIPTION": "Pick !M! NL Gain !B! Shield per [E] cost of picked card",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand. (You will gain !B! Shield per [E] cost of this card)"
+    ]
+  },
+  "druidsurv:OliveBloon": {
+    "NAME": "Olive Bloon",
+    "DESCRIPTION": "Gain !B! Block.",
+    "FLAVOR": "Basic Bloon - Block"
+  },
+  "druidsurv:PerceptiveShot": {
+    "NAME": "Perceptive Shot",
+    "DESCRIPTION": "Retain. Whenever you play a bloon, deal !D! damage to a random enemy."
+  },
+  "druidsurv:PinkBloon": {
+    "NAME": "Pink Bloon",
+    "DESCRIPTION": ". Gain !B! Block. Deal !D! damage at the end of your turn.",
+    "FLAVOR": "Basic Bloon - Attack"
+  },
+  "druidsurv:PrismaticBloon": {
+    "NAME": "Prismatic Bloon",
+    "DESCRIPTION": "stslib:Fleeting  NL Gain !B! Block. NL Deal !D! damage after 3 turns. NL Add 3 Rainbow Bloons to your hand."
+  },
+  "druidsurv:PurpleBloon": {
+    "NAME": "Purple Bloon",
+    "DESCRIPTION": ". Channel !M! Lighting. NL Deal !D! damage at the end of your next turn.",
+    "FLAVOR": "Basic Bloon - Orb/Attack"
+  },
+  "druidsurv:QuincyActionFigure": {
+    "NAME": "Quincy Action Figure",
+    "DESCRIPTION": "Unplayable. Gain [E][E][E] when exhausted."
+  },
+  "druidsurv:QuincyPick": {
+    "NAME": "Archer's Instinct",
+    "DESCRIPTION": "Pick 3",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand."
+    ]
+  },
+  "druidsurv:RainbowBloon": {
+    "NAME": "Rainbow Bloon",
+    "DESCRIPTION": ". NL Gain !B! Block. NL Deal !D! damage after 3 turns."
+  },
+  "druidsurv:RapidShot": {
+    "NAME": "Rapid Shot",
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times"
+  },
+  "druidsurv:RedBloon": {
+    "NAME": "Red Bloon",
+    "DESCRIPTION": "Apply a 2 Delay Bloon with 10 Health. Exhaustive 2.",
+    "FLAVOR": "Basic Bloon - Attack"
+  },
+  "druidsurv:Restock": {
+    "NAME": "Restock",
+    "DESCRIPTION": "Draw !M! cards."
+  },
+  "druidsurv:RustedKey": {
+    "NAME": "Rusted Key",
+    "DESCRIPTION": "Gain a random card.",
+    "FLAVOR": "Common Item"
+  },
+  "druidsurv:SMFC": {
+    "NAME": "Super Monkey Fan Club",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 2 Strength. NL Lose 2 Thorn Strength",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 2 Strength.",
+    "FLAVOR": "Primary Monkey - Dart"
+  },
+  "druidsurv:SelectCardsPlusCardMods": {
+    "NAME": "Cool Card Stuff",
+    "DESCRIPTION": "Choose from 1 of 3 cost 0 cards from any class. NL Add it into your hand. NL It gains Ethereal and Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand with Ethereal and Exhaust."
+    ],
+    "FLAVOR": "Skill - TODO"
+  },
+  "druidsurv:SharpShooter": {
+    "NAME": "Sharp Shooter",
+    "DESCRIPTION": "Dartkind. Deal !M! damage, then deal !D! damage twice.",
+    "FLAVOR": "Primary Monkey - Dart"
+  },
+  "druidsurv:ShieldGasBloon": {
+    "NAME": "Shield Gas Bloon",
+    "DESCRIPTION": "Gain !B! Shield when hit."
+  },
+  "druidsurv:Shrink": {
+    "NAME": "Shrink",
+    "DESCRIPTION": "Purge a card"
+  },
+  "druidsurv:Sniper": {
+    "NAME": "Sniper",
+    "DESCRIPTION": "Deal !D! damage. !${modID}:Reload!"
+  },
+  "druidsurv:Snowstorm": {
+    "NAME": "Snowstorm",
+    "DESCRIPTION": "Apply X Frozen to EVERYONE. Add Glass to up to X cards in your hand",
+    "EXTENDED_DESCRIPTION": [
+      "Frozen: This creature's incoming bloons don't reduce their delay and don't take damage.",
+      "Glass: 25% chance to remove from your deck on play."
+    ]
+  },
+  "druidsurv:SpicyMortar": {
+    "NAME": "Burny Stuff Mortar",
+    "DESCRIPTION": "Deal !D! damage to a random enemy. It is set ${modID}:On_Fire.",
+    "FLAVOR": "Military Monkey - Mortar"
+  },
+  "druidsurv:Starstorm": {
+    "NAME": "Starstorm",
+    "DESCRIPTION": "${modID}:Corrupts Burny Stuff Mortars. NL Add a Void into your draw pile. NL Deal !D! damage to a random enemy 3 times. They are set !${modID}:On_Fire!."
+  },
+  "druidsurv:StartupBlockCard": {
+    "NAME": "Startup And AOE",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Startup: Gain !M! Block.",
+    "FLAVOR": "Skill - TODO"
+  },
+  "druidsurv:SteelBloon": {
+    "NAME": "Steel Bloon",
+    "DESCRIPTION": ". NL Deal !D! damage at the end of your next turn. NL If the target is !${modID}:On_Fire!, deal !druidsurv:sd! damage at the end of your next turn instead."
+  },
+  "druidsurv:StormOfArrows": {
+    "NAME": "Storm Of Arrows",
+    "DESCRIPTION": "Deal !D! damage to !M! unique random enemies."
+  },
+  "druidsurv:Strengthenator": {
+    "NAME": "Strengthenator",
+    "DESCRIPTION": "Gain !M! Strength at the start of your turn."
+  },
+  "druidsurv:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "${modID}:Thornkind. Deal !D! damage.",
+    "FLAVOR": "Strike Attack - Druid"
+  },
+  "druidsurv:StrikeThorn": {
+    "NAME": "Thorn Strike",
+    "DESCRIPTION": "${modID}:Thornkind. Deal !D! damage.",
+    "FLAVOR": "Strike Attack - Colorless"
+  },
+  "druidsurv:StunGasBloon": {
+    "NAME": "Paralysis Gas Bloon",
+    "DESCRIPTION": "Enemies gain !M! Paralysis when they hit you.",
+    "EXTENDED_DESCRIPTION": [
+      "Paralysis: This creature deals (100-(100*0.5^X))% less attack damage. 75% chance to remove ALL Paralysis on any action."
+    ]
+  },
+  "druidsurv:SummonWolf": {
+    "NAME": "Summon Wolf",
+    "DESCRIPTION": "Add a Wolf to your hand. *Shivs and *Wolfs deal !M! additional damage.",
+    "FLAVOR": "Hero Ability - Obyn"
+  },
+  "Accuracy": {
+    "NAME": "Accuracy",
+    "DESCRIPTION": "*Shivs and *Wolfs deal !M! additional damage."
+  },
+  "druidsurv:SuperMonkey": {
+    "NAME": "Super Monkey",
+    "DESCRIPTION": "Deal !D! damage 3 times."
+  },
+  "druidsurv:SupplyDrop": {
+    "NAME": "Supply Drop",
+    "DESCRIPTION": "Draw !M! cards.",
+    "FLAVOR": "Basic Power"
+  },
+  "druidsurv:SupplyDropSniper": {
+    "NAME": "Supply Drop Sniper",
+    "DESCRIPTION": "Deal !D! damage. NL On_Reload: gain [E]"
+  },
+  "druidsurv:TackShooter": {
+    "NAME": "Tack Shooter",
+    "DESCRIPTION": "Deal !D! damage twice."
+  },
+  "druidsurv:ToxicBloon": {
+    "NAME": "Toxic Bloon",
+    "DESCRIPTION": ". NL Deal !D! damage at the end of your next turn. On Popped: If the target can flee or it is a Minion, change its intent to Cowardly."
+  },
+  "druidsurv:TripleDart": {
+    "NAME": "Triple Dart",
+    "DESCRIPTION": "Dartkind. Deal !D! damage."
   },
   "druidsurv:TwoTypesOfDamage": {
     "NAME": "Two Damage Values",
     "DESCRIPTION": "Deal !D! damage. NL If you're Vulnerable, deal !druidsurv:sd! damage instead."
   },
-  "druidsurv:StartupBlockCard": {
-    "NAME": "Startup And AOE",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Startup: Gain !M! Block."
+  "druidsurv:UndeadBloon": {
+    "NAME": "Undead Bloon",
+    "DESCRIPTION": "Deal !D! damage at the end of your next turn. Exhaust.",
+    "FLAVOR": "Basic Bloon - Block/Attack"
   },
-  "druidsurv:MultiCardPreviewAndDrawCallback": {
-    "NAME": "Previews and Callbacks",
-    "DESCRIPTION": "{@@}Shuffle *Smite{!Upgrades!|>0=+} and *Safety{!Upgrades!|>0=+} into your draw pile. NL Draw 1 card. NL If it's Colorless, deal !D! damage to ALL enemies."
+  "druidsurv:VoidBarrier": {
+    "NAME": "Void Barrier",
+    "DESCRIPTION": "!${modID}:Corrupts! Hero Protection and Buffer. NL Gain !M! Intangible and Entangled.",
+    "FLAVOR": "Monkey - Black Void Shooter"
+  },
+  "druidsurv:VoidBloon": {
+    "NAME": "Void Bloon",
+    "DESCRIPTION": "!${modID}:Corrupts! Ceramic Bloons. NL . Add two Void into your draw pile. NL Deal !D! damage at the end of your next turn."
+  },
+  "druidsurv:VoidMonkey": {
+    "NAME": "Void Monkey",
+    "DESCRIPTION": "???",
+    "FLAVOR": "Void Monkey?"
+  },
+  "druidsurv:VolatileBloon": {
+    "NAME": "Volatile Bloon",
+    "DESCRIPTION": "Gain !B! Block. After taking 20 damage, deal 10 damage to yourself and ALL enemies. Exhaust."
+  },
+  "druidsurv:WaterBloon": {
+    "NAME": "Water Bloon",
+    "DESCRIPTION": "Ethereal.  Gain !B! Block. NL Deal !D! damage at the end of your turn.",
+    "FLAVOR": "Basic Bloon - Attack"
+  },
+  "druidsurv:WeakGasBloon": {
+    "NAME": "Weakening Gas Bloon",
+    "DESCRIPTION": "Enemies lose !M! Strength when they hit you."
+  },
+  "druidsurv:WhiteBloon": {
+    "NAME": "White Bloon",
+    "DESCRIPTION": "Gain !B! Block. Draw !M! cards.",
+    "FLAVOR": "Thermal Bloon - Block/Draw"
+  },
+  "druidsurv:Whoops": {
+    "NAME": "Whoops",
+    "DESCRIPTION": "Discard !M! cards. For each card with Reload, gain !M! Reloading."
+  },
+  "druidsurv:WizardMonkey": {
+    "NAME": "Wizard Monkey",
+    "DESCRIPTION": "Deal !D! damage. At the start of your turn, increase this card's damage by !M! for this combat."
+  },
+  "druidsurv:Wolf": {
+    "NAME": "Wolf",
+    "DESCRIPTION": "Deal !D! damage. NL At the end of your turn, Exhaust this if it's in your draw pile.",
+    "FLAVOR": "Support Monkey - Wolf"
+  },
+  "druidsurv:YellowBloon": {
+    "NAME": "Yellow Bloon",
+    "DESCRIPTION": ". Gain !B! Block. NL Deal !D! damage at the end of your next turn.",
+    "FLAVOR": "Basic Bloon - Block/Attack"
+  },
+  "druidsurv:ZOMG": {
+    "NAME": "ZOMG",
+    "DESCRIPTION": ". Gain !B! Block. Deal !D! damage in 4 turns."
+  },
+  "druidsurv:ZebraBloon": {
+    "NAME": "Zebra Bloon",
+    "DESCRIPTION": "Gain !B! Block, and draw 1 card. NL Next turn, draw 2 additional cards."
+  },
+  "druidsurv:ThunderDruid": {
+    "NAME": "Thunder Druid",
+    "DESCRIPTION": "Deals !D! damage to ALL enemies. Add a Heart of Thunder and  Purge",
+    "FLAVOR": "Magic Monkey - Druid"
+  },
+  "druidsurv:BloonEmbiggenold": {
+    "NAME": "Bloon Embiggen",
+    "DESCRIPTION": "Add 10 health to EVERY Bloon.",
+    "FLAVOR": ""
+  },
+  "druidsurv:BloonEmbiggen": {
+    "NAME": "Bloon Embiggen",
+    "DESCRIPTION": "Gain 1 Dexterity for each Bloon in hand.",
+    "FLAVOR": ""
+  },
+  "druidsurv:BloonReinforcements": {
+    "NAME": "Bloon Reinforcements",
+    "DESCRIPTION": "Add !M! random Bloons into your hand.",
+    "FLAVOR": ""
+  },
+  "druidsurv:CripplingSniper": {
+    "NAME": "Crippling Sniper",
+    "DESCRIPTION": "Unique. Deal !D! damage. Apply !M! Vulnerable. Reload.",
+    "FLAVOR": ""
+  },
+  "druidsurv:DoubleRedBloon": {
+    "NAME": "Double Red Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:DoubleBlueBloon": {
+    "NAME": "Double Blue Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:DoubleGreenBloon": {
+    "NAME": "Double Green Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:DoubleYellowBloon": {
+    "NAME": "Double Yellow Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:DoubleCeramicBloon": {
+    "NAME": "Double Ceramic Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:DoubleRainbowBloon": {
+    "NAME": "Double Rainbow Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:Firestorm": {
+    "NAME": "Firestorm",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies",
+    "FLAVOR": ""
+  },
+  "druidsurv:FortifyOld": {
+    "NAME": "Fortify",
+    "DESCRIPTION": "Add !M! health to target's lowest delay Bloon.",
+    "FLAVOR": ""
+  },
+  "druidsurv:Fortify": {
+    "NAME": "Fortify",
+    "DESCRIPTION": "Gain !M! Dexterity.",
+    "FLAVOR": "Power"
+  },
+  "druidsurv:HardenThorns": {
+    "NAME": "Harden Thorns",
+    "DESCRIPTION": "Increase Thornkind damage by !M! this combat.",
+    "FLAVOR": ""
+  },
+  "druidsurv:ImprovedFortify": {
+    "NAME": "Improved Fortify",
+    "DESCRIPTION": "Gain !M! Dexterity. You cannot gain Block from cards for 2 turns.",
+    "FLAVOR": "Power"
+  },
+  "druidsurv:ImprovedFortifyold": {
+    "NAME": "Improved Fortify",
+    "DESCRIPTION": "Add !M! health to target's lowest health Bloon but increase its delay by 1.",
+    "FLAVOR": "Power"
+  },
+  "druidsurv:BloontoniumMiner": {
+    "NAME": "Bloontonium Miner",
+    "DESCRIPTION": "Channel !M! Bloontonium.",
+    "FLAVOR": "Support Monkey - Miner"
+  },
+  "druidsurv:LeechingShotSniper": {
+    "NAME": "Leeching Shot Sniper",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! [druidsurv:BloontoniumIcon]",
+    "FLAVOR": "Military Monkey - Sniper"
+  },
+  "druidsurv:BloontoniumSaboteur": {
+    "NAME": "Bloontonium Saboteur",
+    "DESCRIPTION": "Deal !D! damage. Evoke your next Orb.",
+    "FLAVOR": "Support Monkey - Agent"
+  },
+  "druidsurv:MineSupervisor": {
+    "NAME": "Mine Supervisor",
+    "DESCRIPTION": "Deal !D! damage. NL Channel !M! Bloontonium. NL Gain !M! [druidsurv:BloontoniumIcon] for each Orb.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Channel !M! Bloontonium. NL  Gain !M! [druidsurv:BloontoniumIcon] for each Orb Slot",
+    "FLAVOR": "Support Monkey - Miner"
+  },
+  "druidsurv:Investigator": {
+    "NAME": "Monkey Investigator",
+    "DESCRIPTION": "Deal !D! damage. NL Add a random Bloon to your hand.",
+    "FLAVOR": "Support Monkey - Agent"
+  },
+  "druidsurv:BasicBloonPower": {
+    "NAME": "Basic Bloon Power",
+    "DESCRIPTION": "What.",
+    "FLAVOR": "what is this for?"
+  },
+  "druidsurv:SpikeoPult": {
+    "NAME": "Spike-o-Pult",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, permanently increase this card's damage by !M!. NL Reload.",
+    "FLAVOR": "Support Monkey - Agent"
+  },
+  "druidsurv:SpikeStorm": {
+    "NAME": "Spike Storm",
+    "DESCRIPTION": "stslib:Exhaustive 2. Deal 6 damage to ALL enemies.",
+    "FLAVOR": "Support Power"
+  },
+  "druidsurv:SunBloon": {
+    "NAME": "Sun Bloon",
+    "DESCRIPTION": "Deal !D! damage. NL Add a random Bloon to your hand.",
+    "FLAVOR": "Support Monkey - Agent"
+  },
+  "druidsurv:SunTemple": {
+    "NAME": "Sun Temple",
+    "DESCRIPTION": "What.",
+    "FLAVOR": "what is this for?"
+  },
+  "druidsurv:SuperMonkeyStorm": {
+    "NAME": "Super Monkey Storm",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies.",
+    "FLAVOR": "Support Monkey - Agent"
+  },
+  "druidsurv:TackSprayer": {
+    "NAME": "Tack Sprayer",
+    "DESCRIPTION": "Deal !D! damage !M! times.",
+    "FLAVOR": "Support Monkey - Miner"
+  },
+  "druidsurv:TheBigOne": {
+    "NAME": "The Big One",
+    "DESCRIPTION": "Deal !D! damage. NL Add a random Bloon to your hand.",
+    "FLAVOR": "Support Monkey - Agent"
+  },
+  "druidsurv:YellowBloonPower": {
+    "NAME": "Yellow Bloon Power",
+    "DESCRIPTION": "What.",
+    "FLAVOR": "what is this for?"
+  },
+  "druidsurv:OrbsOfLight": {
+    "NAME": "Orbs of Light",
+    "DESCRIPTION": "What.",
+    "FLAVOR": "what is this for?"
+  },
+  "druidsurv:ChoiceMoxCard": {
+    "NAME": "Choice Mox Card",
+    "DESCRIPTION": "Choose one of the Mox colors, gain that Mox.",
+    "EXTENDED_DESCRIPTION": [
+      "Emerald Mox",
+      "Gain 2 Emerald Mox",
+      "Ruby Mox",
+      "Gain 1 Ruby Mox",
+      "Sapphire Mox",
+      "Gain 1 Sapphire Mox"]
+  },
+  "druidsurv:ModalChoiceMoxGreen": {
+    "NAME": "Emerald Mox",
+    "DESCRIPTION": "Gain 1 Emerald Mox"
+  },
+  "druidsurv:ModalChoiceMoxRuby": {
+    "NAME": "Ruby Mox",
+    "DESCRIPTION": "Gain 1 Ruby Mox"
+  },
+  "druidsurv:ModalChoiceMoxBlue": {
+    "NAME": "Sapphire Mox",
+    "DESCRIPTION": "Gain 1 Sapphire Mox"
+  },
+  "druidsurv:MoxGreen": {
+    "NAME": "Emerald Mox Bloon",
+    "DESCRIPTION": "Gain 5 Block. NL Gain [druidsurv:GMoxIIcon] ."
+  },
+  "druidsurv:MoxRuby": {
+    "NAME": "Ruby Mox Bloon",
+    "DESCRIPTION": "Gain 5 Block. NL Gain [druidsurv:RMoxIIcon] ."
+  },
+  "druidsurv:MoxBlue": {
+    "NAME": "Sapphire Mox Bloon",
+    "DESCRIPTION": "Gain 5 Block. NL Gain [druidsurv:BMoxIIcon] ."
+  },
+  "druidsurv:MoxClear": {
+    "NAME": "Double Diamond Bloon",
+    "DESCRIPTION": "Gain 5 Block. NL Gain 1 Mox of a random color twice."
+  },
+  "druidsurv:MoxClearBoost": {
+    "NAME": "Boost Diamond Bloon",
+    "DESCRIPTION": "Gain 5 Block. NL Gain 1 Mox of a random color 3 times."
+  },
+  "druidsurv:MoxRainbow": {
+    "NAME": "Quartz Bloon",
+    "DESCRIPTION": "Lose 2 HP. Gain 5 Block.  NL Gain [druidsurv:GMoxIIcon] , [druidsurv:RMoxIIcon] , or [druidsurv:BMoxIIcon] ."
+  },
+  "druidsurv:MoxRainbowDouble": {
+    "NAME": "Double Quartz Bloon",
+    "DESCRIPTION": "Lose 2 Strength. Gain 5 Block. NL Gain [druidsurv:GMoxIIcon] , [druidsurv:RMoxIIcon] , or [druidsurv:BMoxIIcon] twice."
+  },
+  "druidsurv:MoxGreenLand": {
+    "NAME": "Emerald Land",
+    "DESCRIPTION": "Channel [druidsurv:GMoxIIcon] NL Lands are Unplayable until your next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxRubyLand": {
+    "NAME": "Ruby Land",
+    "DESCRIPTION": "Channel [druidsurv:RMoxIIcon] . NL Lands are Unplayable until your next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxBlueLand": {
+    "NAME": "Sapphire Land",
+    "DESCRIPTION": "Channel [druidsurv:BMoxIIcon] . NL Lands are Unplayable until your next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxVoidLand": {
+    "NAME": "WasteLand",
+    "DESCRIPTION": "Channel [druidsurv:VMoxIIcon] . NL Lands are Unplayable until your next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxClearLand": {
+    "NAME": "Quartz Land",
+    "DESCRIPTION": "Channel [druidsurv:VMoxIIcon] . NL Lands are Unplayable until your next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxClearVessel": {
+    "NAME": "Quartz Vessel",
+    "DESCRIPTION": "Channel [druidsurv:GMoxIIcon] [druidsurv:RMoxIIcon] [druidsurv:BMoxIIcon] [druidsurv:VMoxIIcon] . NL Lands are Unplayable until your next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxGreenVessel": {
+    "NAME": "Emerald Vessel",
+    "DESCRIPTION": "Channel [druidsurv:GMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxRubyVessel": {
+    "NAME": "Ruby Vessel",
+    "DESCRIPTION": "Channel [druidsurv:RMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxBlueVessel": {
+    "NAME": "Sapphire Vessel",
+    "DESCRIPTION": "Channel [druidsurv:BMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxBleeneVessel": {
+    "NAME": "Bleene's Vessel",
+    "DESCRIPTION": "Channel [druidsurv:GMoxIIcon] and [druidsurv:BMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxOrluVessel": {
+    "NAME": "Orlu's Vessel",
+    "DESCRIPTION": "Channel [druidsurv:BMoxIIcon] and [druidsurv:RMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxGoranjVessel": {
+    "NAME": "Goranj's Vessel",
+    "DESCRIPTION": "Channel [druidsurv:RMoxIIcon] and [druidsurv:GMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:ThrivingBlueLand": {
+    "NAME": "Thriving Sapphire Land",
+    "DESCRIPTION": "Channel [druidsurv:BMoxIIcon] [druidsurv:BMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:ThrivingGreenLand": {
+    "NAME": " Thriving Emerald Land",
+    "DESCRIPTION": "Channel [druidsurv:GMoxIIcon] [druidsurv:GMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:ThrivingRubyLand": {
+    "NAME": "Thriving Ruby Land",
+    "DESCRIPTION": "Channel [druidsurv:RMoxIIcon] [druidsurv:RMoxIIcon] .",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "]
+  },
+  "druidsurv:MoxGreenRare": {
+    "NAME": "Mox Emerald",
+    "DESCRIPTION": "Channel [druidsurv:GMoxIIcon] ."
+  },
+  "druidsurv:MoxRubyRare": {
+    "NAME": "Mox Ruby",
+    "DESCRIPTION": "Channel [druidsurv:RMoxIIcon] ."
+  },
+  "druidsurv:MoxBlueRare": {
+    "NAME": "Mox Sapphire",
+    "DESCRIPTION": "Channel [druidsurv:BMoxIIcon] ."
+  },
+  "druidsurv:NestedBlueBloon": {
+    "NAME": "Nested Blue Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:NestedGreenBloon": {
+    "NAME": "Nested Green Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:NestedYellowBloon": {
+    "NAME": "Nested Yellow Bloon",
+    "DESCRIPTION": "Todo",
+    "FLAVOR": ""
+  },
+  "druidsurv:GreenMage": {
+    "NAME": "Green Mage",
+    "DESCRIPTION": "Deal !D! damage. NL Deals an additional !M! damage for each [druidsurv:GMoxIIcon].",
+    "FLAVOR": "Magick Monkey - Wizard"
+  },
+  "druidsurv:RedMage": {
+    "NAME": "Red Mage",
+    "DESCRIPTION": "Gain !B! Block. NL Gain an additional !M! Block for each [druidsurv:RMoxIIcon]",
+    "FLAVOR": "Magick Monkey - Wizard"
+  },
+  "druidsurv:OrangeMage": {
+    "NAME": "Orange Mage",
+    "DESCRIPTION": "Deal !D! damage. NL Deals an additional !M! damage for each Channeled Mox.",
+    "FLAVOR": "Magick Monkey - Wizard"
+  },
+  "druidsurv:BlueMage": {
+    "NAME": "Blue Mage",
+    "DESCRIPTION": "Draw !M!. NL Draw an additional card for each [druidsurv:BMoxIIcon].",
+    "FLAVOR": "Magick Monkey - Wizard"
+  },
+  "druidsurv:MagePupil": {
+    "NAME": "Mage Pupil",
+    "DESCRIPTION": "Deal !D! damage. Gain !B! Block. Exhaust if you have no [druidsurv:GMoxIIcon] , [druidsurv:RMoxIIcon] , [druidsurv:BMoxIIcon] , or [druidsurv:VMoxIIcon].",
+    "FLAVOR": "Magick Monkey - Wizard"
+  },
+  "druidsurv:NemStrike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage.",
+    "FLAVOR": "Magick Attack - Mage"
+  },
+  "druidsurv:Ouroboros": {
+    "NAME": "Ouroboros",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL On Sacrifice: Permanently increase all Ouroboros' damage and Block by 4.",
+    "FLAVOR": "Beast Monkey - Reptile"
+  },
+  "druidsurv:DamagedMOAB": {
+    "NAME": "Damaged MOAB",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:FlameBarrierChoice": {
+    "NAME": "Flame Barrier",
+    "DESCRIPTION": "",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:FlameBoltChoice": {
+    "NAME": "Flame Bolt",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:StrikerStrike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:BabyMonkey": {
+    "NAME": "Baby Monkey",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Monkey"
+  },
+  "druidsurv:MonkeySense": {
+    "NAME": "Monkey Sense",
+    "DESCRIPTION": "Shuffle all Mox cards in your discard pile into your draw pile NL Pick !M!, Pick an additional card for each [druidsurv:BMoxIIcon].",
+    "EXTENDED_DESCRIPTION": [
+      "Select a card."],
+    "FLAVOR": "Hero Ability - Mage"
+  },
+  "druidsurv:NemBash": {
+    "NAME": "Arcane Bash",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable.",
+    "EXTENDED_DESCRIPTION": [
+      "Unplayable NL On Play: "],
+    "FLAVOR": "Hero Ability - Mage"
+  },
+  "druidsurv:ArcaneBlast": {
+    "NAME": "Damaged MOAB",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:ArcaneMastery": {
+    "NAME": "Damaged MOAB",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:GuidedMagic": {
+    "NAME": "Damaged MOAB",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:IntenseMagic": {
+    "NAME": "Damaged MOAB",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:HeroProtection": {
+    "NAME": "Damaged MOAB",
+    "DESCRIPTION": "Deal !D! damage. Deal !D! damage.",
+    "FLAVOR": "Beast Monkey/Bloon"
+  },
+  "druidsurv:": {
+    "NAME": "druidsurv:",
+    "DESCRIPTION": "T)(is card's ID is incomplete. Someone s)(ould fish t)(at!",
+    "FLAVOR": "Unknown"
+  },
+  "druidsurv:SpiritStrike": {
+    "NAME": "Spirit Strike",
+    "DESCRIPTION": "Retain. Deal !D! damage. Gain [E] ."
+  },
+  "druidsurv:LeakCurse": {
+    "NAME": "Bloontonium Leak",
+    "DESCRIPTION": "Unplayable. At the end of your turn, lose !M! [druidsurv:BloontoniumIcon]"
+  },
+  "druidsurv:OverloadCurse": {
+    "NAME": "Overload",
+    "DESCRIPTION": "Unplayable. Ethereal. At the end of your turn, take !M! damage for each [druidsurv:BloontoniumIcon]"
+  },
+  "druidsurv:ManaBurn": {
+    "NAME": "Mana Burn",
+    "DESCRIPTION": "Unplayable. At the end of your turn, take !M! damage for each unspent Mox"
+  },
+  "druidsurv:GrandDisappearance": {
+    "NAME": "Grand Disappearance",
+    "DESCRIPTION": "Gain !M! Intangible."
+  },
+  "druidsurv:ActOfPower": {
+    "NAME": "Act of Power",
+    "DESCRIPTION": "Your next !M! Power costs !M2! less."
+  },
+  "druidsurv:BloonShield": {
+    "NAME": "Bloon Shield",
+    "DESCRIPTION": "Gain !M! Block when you play a Bloon."
+  },
+  "druidsurv:Gyrfalcon": {
+    "NAME": "Loyal Gyrfalcon",
+    "DESCRIPTION": "Mox Dependent [druidsurv:GMoxIIcon] . NL Unplayable if you haven't played a Power this turn. NL Deal !D! damage. [druidsurv:BloontoniumIcon]",
+    "FLAVOR": "Support Monkey - Beast"
+  },
+  "druidsurv:Owl": {
+    "NAME": "Horned Owl",
+    "DESCRIPTION": "Mox Dependent [druidsurv:BMoxIIcon] . NL Draw !M! card. NL Discard !M! card.",
+    "FLAVOR": "Support Monkey - Beast"
+  },
+  "druidsurv:Eagle": {
+    "NAME": "Golden Eagle",
+    "DESCRIPTION": "Mox Dependent [druidsurv:GMoxIIcon] [druidsurv:RMoxIIcon] . NL Remove !M! Artifact from target. NL Deal !D! damage.",
+    "FLAVOR": "Support Monkey - Beast"
+  },
+  "druidsurv:Condor": {
+    "NAME": "Giant Condor",
+    "DESCRIPTION": "Mox Dependent [druidsurv:GMoxIIcon] [druidsurv:BMoxIIcon] . NL Unplayable if you haven't played a Skill this turn. NL Deal !D! damage. NL Choose a Bloon in your draw pile and put this card into your hand.",
+    "FLAVOR": "Support Monkey - Beast"
+  },
+  "druidsurv:Magpie": {
+    "NAME": "Magpie",
+    "DESCRIPTION": "Mox Dependent [druidsurv:BMoxIIcon] . NL Deal !M! damage NL If this deals unblocked damage, choose a card in your draw pile and put this card into your hand.",
+    "FLAVOR": "Support Monkey - Beast"
+  },
+  "druidsurv:Phoenix": {
+    "NAME": "Summon Phoenix",
+    "DESCRIPTION": "Mox Dependent [druidsurv:BMoxIIcon] [druidsurv:RMoxIIcon] . NL Deals !D! damage to ALL enemies. Unkillable",
+    "FLAVOR": "Magic Monkey - Wizard"
+  },
+  "druidsurv:HeavyGreenBloon": {
+    "NAME": "Heavy Green Bloon",
+    "DESCRIPTION": "Mox Dependent [druidsurv:BMoxIIcon] [druidsurv:RMoxIIcon] . NL Heavy Green Bloon.",
+    "FLAVOR": "Magic Monkey - Wizard"
+  },
+  "druidsurv:ArtilleryBattery": {
+    "NAME": "Artillery Battery",
+    "DESCRIPTION": "Deal !D! damage to a random enemy X times.",
+    "FLAVOR": "Military Monkey - Mortar"
+  },
+  "druidsurv:AvatarofWrath": {
+    "NAME": "Avatar of Wrath",
+    "DESCRIPTION": "The first time you are attacked this turn, draw 1 card.",
+    "FLAVOR": "Magic Monkey - Druid"
+  },
+  "druidsurv:ChainLightningDruid": {
+    "NAME": "Chain Lightning",
+    "DESCRIPTION": "Mox Dependent [druidsurv:GMoxIIcon] [druidsurv:RMoxIIcon] . Deals !D! damage to a random enemy. If this kills an enemy, play this card again.",
+    "FLAVOR": "Magic Monkey - Druid"
+  },
+  "druidsurv:Juggernaut": {
+    "NAME": "Juggernaut",
+    "DESCRIPTION": "Mox Dependent [druidsurv:RMoxIIcon] . Deals !D! damage to ALL enemies. If this kills an enemy, play this card again.",
+    "FLAVOR": "Primary Monkey - Dart"
   }
 }

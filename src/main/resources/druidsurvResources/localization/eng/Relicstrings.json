@@ -1,32 +1,328 @@
 {
   "${ModID}:TodoItem": {
+    "NAME": "Bloon Storm",
+    "FLAVOR": "The Storm Begins",
+    "DESCRIPTIONS": [
+	  "Summons #yBloons targeting r#EVERYONE or reduces r#EVERYONE's #yStrength for a turn.",
+      "Summons #yBloons targeting r#EVERYONE or reduces r#EVERYONE's #yStrength for a turn. NL",
+	  "Next effect in ",
+	  " turns:",
+      " Reduce #rEVERYONE's #yStrength by",
+      " and Reduce #rEVERYONE's #yStrength by",
+      "for the next turn. //6th index",
+      "Summons #yYellow #yBloons (1 Delay, 14 HP)",
+      "Summons #yCeramic #yBloons (2 Delay, 25 HP)",
+      "Summons #yMOABs (#b4 Delay, #b50 HP)",
+      "Summons #yBFBs (#b4 Delay, #b60 HP)",
+      "Summons #yZOMGs (#b5 Delay, #b80 HP)",
+      "Summons #yZOMGs (#b5 Delay, #b80 HP) and #b2 #yCeramic #yBloons (#b2 Delay, #b25 HP)",
+      "Summons #b2 #yDouble #yRainbows (#b2 Delay, #b33 HP, Double Attack)",
+      "Summons #b2 #rPink #rBloons (#r0 #rDelay, #b14 HP)",
+      "Summons #b2 #yZOMGs (#b5 Delay, #b80 HP)",
+      "Summons #yDouble #yYellows (#b1 Delay, #b14 HP, Double Attack)",
+      "Summons #b4 #rPink #rBloons (#r1 Delay, #r10 HP)",
+      "Summons #yDouble #yYellows (#b1 Delay, #b14 HP, Double Attack)",
+      "Summons #b4 #rPink #rBloons (#r1 Delay, #r10 HP)",
+      "Summons #b4 #yDouble #yCeramics (#b2 Delay, #b22 HP, Double Attack)"
+    ]
+  },
+  "${ModID}:DruidDeck": {
     "NAME": "Druidic Deck",
     "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
     "DESCRIPTIONS": [
+      "Start each combat with #b2 #yFocus. Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:BasicDeck": {
+    "NAME": "Blank Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:MagicDeckOld": {
+    "NAME": "Magic Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Start each combat with #r-2 #yWizard #yStrength. Gain #yWizard #yStrength at the end of your turn. Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:MagicDeck": {
+    "NAME": "Magick Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, choose one of the Mox colors, gain that Mox. Playing Monkeys without spending Mox grants an additional card next turn. Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:MoxDeck": {
+    "NAME": "Magick Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Draw 1 less card, and draw a Vessel card from this. Playing Monkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:StrikerDeck": {
+    "NAME": "Blank Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Your first #yBomb or #yMortar costs #b1 less each turn. Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:CrowDeck": {
+    "NAME": "Cultist Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Playing Monkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:RedDeck": {
+    "NAME": "Red Deck",
+    "FLAVOR": "A red deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Discard the first #yUnplayable card drawn each turn, then draw #b1 additional card."
+    ]
+  },
+  "${ModID}:OrangeDeck": {
+    "NAME": "Orange Deck",
+    "FLAVOR": "A orange deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Replaces Red Deck. NL Discard the first #b2 #yUnplayable cards drawn each turn. NL #gYou #gmust #gpossess #gthe #rRed #rDeck #gfor #gthis #gRelic #gto #gappear."
+    ]
+  },
+  "${ModID}:BlueDeck": {
+    "NAME": "Blue Deck",
+    "FLAVOR": "A blue deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, draw #b1 additional card."
+    ]
+  },
+  "${ModID}:CyanDeck": {
+    "NAME": "Cyan Deck",
+    "FLAVOR": "A cyan deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Replaces Blue Deck. NL At the start of your turn, draw #b2 additional cards. At the end of your turn, put a random card on top of your draw pile. You must possess the b#Blue b#Deck for this Deck to appear."
+    ]
+  },
+  "${ModID}:PurpleDeck": {
+    "NAME": "Purple Deck",
+    "FLAVOR": "A purple deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, draw a random card from your #ydiscard pile. Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:YellowDeck": {
+    "NAME": "Yellow Deck",
+    "FLAVOR": "A yellow deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Replaces your #rrightmost #rDeck. NL Gain [E] on the first turn of each combat. Playing #yMonkeys grants an additional card next turn. You must possess a #yDeck for this Deck to appear."
+    ]
+  },
+  "${ModID}:GreenDeck": {
+    "NAME": "Green Deck",
+    "FLAVOR": "A green deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Replaces your #rrightmost #rDeck. NL Gain [E] at the start of your next turn if you could play a 1+ cost card.",
+	  " Energy"
+    ]
+  },
+  "${ModID}:GreenDeck2": {
+    "NAME": "Green Deck",
+    "FLAVOR": "A green deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "#rReplaces #rleftmost #rDeck. NL Gain [E] Energy at the start of each turn, #rbut #rlose #r3 #rEnergy #rat #rthe #rend #rof #reach #rturn."
+    ]
+  },
+  "${ModID}:BlackDeck": {
+    "NAME": "Black Deck",
+    "FLAVOR": "A black deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+		"Gain [E] at the start of each turn, but draw #b1 fewer card."
+    ]
+  },
+  "${ModID}:SilverDeck": {
+    "NAME": "Silver Deck",
+    "FLAVOR": "A silver deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Gain 2 Energy at the start of each turn, but draw #b1 fewer card. At the end of your turn, put a random card on top of your draw pile. NL Playing Monkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:WhiteDeck": {
+    "NAME": "White Deck",
+    "FLAVOR": "A black deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "At the end of your turn, put a random on top of your draw pile. NL Playing Monkeys grants an additional card next turn. Upon pickup, remove any other 'Deck' relics."
+    ]
+  },
+  "${ModID}:AmethystDeck": {
+    "NAME": "Amethyst Deck",
+    "FLAVOR": "A amethyst deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "+5 hand size. NL Playing Monkeys grants an additional card next turn. Upon pickup, remove any other 'Deck' relics."
+    ]
+  },
+  "${ModID}:BloodDeck": {
+    "NAME": "Iron Deck",
+    "FLAVOR": "A gray deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "#rReplaces #rleftmost #rBlood #ror #rDeck.",
+	  "At the end of combat, heal ",
+	  " HP. Whenever you lose HP from a card, increase this healing by b#1.",
+	  "NL Playing Monkeys cards grants an additional card next turn."
+    ]
+  },
+  "${ModID}:ChemDeck": {
+    "NAME": "Chemical Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "#rReplaces #rleftmost #rRing #ror #rDeck. NL When you set target On Fire, apply 2 Poison. Whenever you apply Poison, apply 3 On Fire.",
+	  "NL Playing Monkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:TechDeck": {
+    "NAME": "Tech Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "#rReplaces #rleftmost #rCore #ror #rDeck. ",
+	  "Start each combat with 4 Focus. -1 Orb slot. ",
+	  "NL Playing Monkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:DivineDeck": {
+    "NAME": "Divine Deck",
+    "FLAVOR": "A Divine deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "#rReplaces #rleftmost #rWater #ror #rDeck. NL At the start of each combat, add 2 Red Bloons to your hand. NL Whenever you exhaust a Bloon, add a Miracle to your hand. NL Playing #rMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:DivineDeckold": {
+    "NAME": "Divine Deck",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "#rReplaces #rleftmost #rWater #ror #rDeck. ",
+	  "Whenever you play a 2 cost #rMonkey, enter #yWrath. NL Whenever you play a 2 cost #bBloon, enter #yCalm. NL Whenever you play a 1 cost Power, exit your #yStance. ",
+	  "NL Playing #rMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:WastefulVoucher": {
+    "NAME": "Wasteful Voucher",
+    "FLAVOR": "Permanently gain #r+1 discard each round",
+    "DESCRIPTIONS": [
+      "Discard the first #yUnplayable card drawn each turn, then draw #b1 additional card."
+    ]
+  },
+  "${ModID}:RecyclomancyVoucher": {
+    "NAME": "Recyclomancy Voucher",
+    "FLAVOR": "Permanently gain +1 hand per round",
+    "DESCRIPTIONS": [
+      "Discard the first #b2 #yUnplayable card drawn each turn, then draw #b1 additional card each time."
+    ]
+  },
+  "${ModID}:GrabberVoucher": {
+    "NAME": "Grabber Voucher",
+    "FLAVOR": "Permanently gain #b+1 hand each round",
+    "DESCRIPTIONS": [
+      "Discard the first #yUnplayable card drawn each turn, then draw #b1 additional card."
+    ]
+  },
+  "${ModID}:NachoTongVoucher": {
+    "NAME": "Nacho Tong Voucher",
+    "FLAVOR": "Permanently gain an additional #b+1 hand per round",
+    "DESCRIPTIONS": [
+      "Discard the first 2 #yUnplayable card drawn each turn, then draw #b1 additional card each time."
+    ]
+  },
+  "${ModID}:BlankVoucher": {
+    "NAME": "Blank Voucher",
+    "FLAVOR": "Does nothing?",
+    "DESCRIPTIONS": [
+      "Does nothing?"
+    ]
+  },
+  "${ModID}:BlankVoucher2": {
+    "NAME": "Antimatter Voucher",
+    "FLAVOR": "#b+1 Joker slot",
+    "DESCRIPTIONS": [
+      "#gReplaces #gBlank #gVoucher. Gain 1 Energy at the start of each turn."
+    ]
+  },
+  "${ModID}:OldGreenDeck": {
+    "NAME": "Green Deck",
+    "FLAVOR": "A green deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Energy is now conserved between turns, #rbut #rlose [E]. Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:LimeDeck": {
+    "NAME": "Lime Deck",
+    "FLAVOR": "A lime deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Gain [E] [E], Energy is now conserved between turns, #rbut #rlose [E] #rfor #reach #rcard #rdiscarded. Playing #yMonkeys grants an additional card next turn."
+    ]
+  },
+  "${ModID}:CheckeredDeck": {
+    "NAME": "Checkered Deck",
+    "FLAVOR": "A checkered deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Upon pickup, Replace all Basic Strikes with Huntress Monkeys and Defends with Oilve Bloons."
+    ]
+  },
+  "${ModID}:ErraticDeck": {
+    "NAME": "Erratic Deck",
+    "FLAVOR": "A erratic deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "Upon pickup, Transform all Basic cards into different Basic cards. (80% for Druid's Strike/Purple Defend/Huntress Monkey/Oilve Bloon, 20% for ANY Basic, Non-Strike/Defend Card)"
+    ]
+  },
+  "${ModID}:TodoItem2": {
+    "NAME": "Druidic Deck Old",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, draw 2 additional cards. NL At the start of your turn, draw 2 fewer cards. NL Playing Monkeys and Basic cards grants an additional card next turn."
+    ]
+  },
+  "${ModID}:TodoItemOld": {
+    "NAME": "Druidic Deck Older",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
       "At the start of your turn, draw 2 fewer cards. NL Up to #b",
-      " Energy is now conserved between turns. NL Playing Monkeys, Basic Bloons, and Basic cards grants an additional card next turn. NL Retain Monkeys in your hand."
+      " Energy is now conserved between turns. NL Playing Monkeys and Basic cards grants an additional card next turn."
     ]
   },
   "${ModID}:TodoItemPro": {
     "NAME": "Heroic Deck",
     "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
     "DESCRIPTIONS": [
+      "At the start of each combat, gain 2 energy, draw 2 fewer cards, and discard up to 3 cards then draw that many. NL Up to #b",
+      " Energy is now conserved between turns."
+    ]
+  },
+  "${ModID}:TodoItemProOld": {
+    "NAME": "Heroic Deck old",
+    "FLAVOR": "A deck of Monkeys, Bloons and Powers.",
+    "DESCRIPTIONS": [
       "At the start of each combat, gain 2 energy and draw 2 fewer cards. NL Up to #b",
-      " Energy is now conserved between turns. NL Retain Bloons in your hand."
+      " Energy is now conserved between turns. NL Retain Monkeys and Basic cards in your hand."
+    ]
+  },
+  "${ModID}:WornDeck": {
+    "NAME": "Worn Deck",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "At the start of each combat, draw 2 additional cards. NL At the start of your turn, draw 4 fewer cards. #rALL Cards #yExhaust when discarded. At the end of your turn, you no longer discard your hand. Gain a Discard Curse to your deck."
     ]
   },
   "${ModID}:BloonTrap": {
     "NAME": "Bloon Trap",
     "FLAVOR": "A bloon containment device created by top Monkey Engineers...",
     "DESCRIPTIONS": [
-      "Gain Gold when Bloons are exhausted. 0 and 1 cost Bloons gain Ethereal."
+      "Gain 10 Gold when Bloons are exhausted."
     ]
   },
   "${ModID}:Becquerel": {
     "NAME": "Wolf Plush",
     "FLAVOR": "Good dog. Best friend.",
     "DESCRIPTIONS": [
-      "At the start of your turn, add a Wolf to your hand."
+      "At the start of your turn, add a Wolf to your hand. Shivs and Wolfs deal 2 additional damage."
     ]
   },
   "${ModID}:FutureCrystal": {
@@ -34,6 +330,20 @@
     "FLAVOR": "See into the future and sabotage incoming bloons.",
     "DESCRIPTIONS": [
       "Your Large Bloons are 25% weaker, but gain 1 energy when a Large Bloon is played."
+    ]
+  },
+  "${ModID}:Visions": {
+    "NAME": "Visions of Heresy",
+    "FLAVOR": "One of the Heretic's eyes..",
+    "DESCRIPTIONS": [
+      "Strikes and Thornkind attacks apply damage as Zero Delay Bloons."
+    ]
+  },
+  "${ModID}:Ukulele": {
+    "NAME": "Ukulele",
+    "FLAVOR": "...and his music was electric.",
+    "DESCRIPTIONS": [
+      "Lightning now hits ALL enemies. Heart of Thunder costs 1 energy less."
     ]
   },
   "${ModID}:Watch": {
@@ -63,7 +373,7 @@
     "NAME": "Personal Shield Generator",
     "FLAVOR": "Gain a recharging shield.",
     "DESCRIPTIONS": [
-      ""
+      "Gain 15% of your Max HP as #yShield at the start of each combat."
     ]
   },
   "${ModID}:OWS": {
@@ -84,7 +394,14 @@
     "NAME": "Mercurial Rachis",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "EVERYONE deals #b20% more damage"
+      "1 in 4 chas Leave Wrath at the start of your turn."
+    ]
+  },
+  "${ModID}:Transcendence": {
+    "NAME": "Transcendence",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "Upon pickup, #rhalf your Max HP. Gain #b150% of your Max HP as #yShield at the start of each combat."
     ]
   }
 }

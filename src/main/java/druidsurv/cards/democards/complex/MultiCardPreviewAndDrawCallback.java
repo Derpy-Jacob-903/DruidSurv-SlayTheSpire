@@ -1,5 +1,6 @@
 package druidsurv.cards.democards.complex;
 
+import basemod.AutoAdd;
 import basemod.patches.com.megacrit.cardcrawl.cards.AbstractCard.MultiCardPreview;
 import druidsurv.cards.AbstractEasyCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -13,15 +14,17 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import static druidsurv.ModFile.makeID;
 import static druidsurv.util.Wiz.*;
 
+@AutoAdd.Ignore
 public class MultiCardPreviewAndDrawCallback extends AbstractEasyCard {
     public final static String ID = makeID(MultiCardPreviewAndDrawCallback.class.getSimpleName());
     // intellij stuff skill, self, uncommon, , , , , ,
 
     public MultiCardPreviewAndDrawCallback() {
-        super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ALL_ENEMY); // This card is a 1 cost Uncommon Attack that targets ALL enemies.
+        super(ID, 1, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ALL_ENEMY); // This card is a 1 cost Uncommon Attack that targets ALL enemies.
         baseDamage = 10;
         MultiCardPreview.add(this, new Smite(), new Safety()); // Display both Smite and Safety when you hover this card.
         isMultiDamage = true;
+        setPortraitTextures("druidsurvResources/images/cardui/512/frame_attack_hidden.png", "druidsurvResources/images/cardui/1024/frame_attack_hidden.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

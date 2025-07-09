@@ -428,6 +428,55 @@ public class CardArtRoller {
         //Actually, I think this can work. Because SingleCardViewPopup disposes of the texture, we can just make a new one every time.
     }
 
+    public static Texture myGetPortraitTexture(AbstractCard c) {
+        ReskinInfo r = infos.get(c.cardID);
+
+
+        //Color HSLC = new Color(r.H, r.S, r.L, r.C);
+        AbstractCard artCard = CardLibrary.getCard(r.origCardID);
+        TextureAtlas.AtlasRegion t = new TextureAtlas.AtlasRegion(TexLoader.getTexture("images/1024Portraits/" + artCard.assetUrl + ".png"), 0, 0, 1024, 1024);
+        //t.flip(r.flipX, true);
+        if (portraitCamera == null) {
+            portraitCamera = new OrthographicCamera(500, 380);
+        }
+        portraitCamera.position.setZero();
+        if (true) {
+
+            portraitCamera.zoom = 0.70f;
+            portraitCamera.translate(0, -20);
+            portraitCamera.update();
+        }
+        SpriteBatch sb = new SpriteBatch();
+        sb.setProjectionMatrix(portraitCamera.combined);
+        portraitBuffer.begin();
+        //if (shouldSwapColorTexture) {
+            //WizArt.swapTextureAndClear(portraitBuffer);
+        //}
+        sb.begin();
+        //if (!r.isBicolor) {
+            //sb.setShader(shade);
+            //sb.setColor(HSLC);
+        //} else {
+            //sb.setShader(bicolorShader);
+            //sb.setColor(Color.WHITE);
+            //setBicolorShaderValues(r);
+        //}
+        sb.draw(t, -250, -190);
+        if (true) {
+            sb.setBlendFunction(GL_DST_COLOR, GL_ZERO);
+            Texture mask = getMask(c);
+            sb.setProjectionMatrix(new OrthographicCamera(500, 380).combined);
+            sb.draw(mask, -250, -190, -250, -190, 500, 380, 1, 1, 0, 0, 0, mask.getWidth(), mask.getHeight(), false, true);
+        }
+        sb.end();
+        portraitBuffer.end();
+        //t.flip(r.flipX, true);
+        TextureRegion a = ImageHelper.getBufferTexture(portraitBuffer);
+        return a.getTexture();
+
+        //Actually, I think this can work. Because SingleCardViewPopup disposes of the texture, we can just make a new one every time.
+    }
+
     private static void setBicolorShaderValues(ReskinInfo info) {
         bicolorShader.setUniformf("lRed", info.target1.r);
         bicolorShader.setUniformf("lGreen", info.target1.g);

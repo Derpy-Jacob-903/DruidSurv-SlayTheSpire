@@ -1,6 +1,6 @@
 {
   "druidsurv:ExampleTwoAmountPower": {
-    "NAME": "Example 2",
+    "NAME": "(DEPRECATED (kinda)) Example 2",
     "DESCRIPTIONS": [
       "At the start of your turn, gain #b",
       " #yStrength and #b",
@@ -8,58 +8,58 @@
     ]
   }, 
   "druidsurv:0DelayBloon": {
-    "NAME": "0 Delay Bloon",
+    "NAME": "(DEPRECATED) 0 Delay Bloon",
     "DESCRIPTIONS": [
       "At the start of it's turn, it takes #b",
       " damage."
     ]
   }, 
   "druidsurv:1DelayBloon": {
-    "NAME": "1 Delay Bloon",
+    "NAME": "(DEPRECATED) 1 Delay Bloon",
     "DESCRIPTIONS": [
       "At the start of it's next turn, it takes #b",
-      " damage. Whenever you receive attack damage from it, remove that much this."
+      " damage. Whenever you receive attack damage from it or it gains #yBlock, remove that much this."
     ]
   }, 
   "druidsurv:2DelayBloon": {
-    "NAME": "2 Delay Bloon",
+    "NAME": "(DEPRECATED) 2 Delay Bloon",
     "DESCRIPTIONS": [
       "In #b2 turns, it takes #b",
-      " damage. Whenever you receive attack damage from it, remove that much this."
+      " damage. Whenever you receive attack damage from it or it gains #yBlock, remove that much this."
     ]
   }, 
   "druidsurv:3DelayBloon": {
-    "NAME": "3 Delay Bloon",
+    "NAME": "(DEPRECATED) 3 Delay Bloon",
     "DESCRIPTIONS": [
       "In #b3 turns, it takes #b",
-      " damage. Whenever you receive attack damage from it, remove that much this."
+      " damage. Whenever you receive attack damage from it or it gains #yBlock, remove that much this."
     ]
   },
   "druidsurv:4DelayBloon": {
-    "NAME": "4 Delay Bloon",
+    "NAME": "(DEPRECATED) 4 Delay Bloon",
     "DESCRIPTIONS": [
       "In #b4 turns, it takes #b",
-      " damage. Whenever you receive attack damage from it, remove that much this."
+      " damage. Whenever you receive attack damage from it or it gains #yBlock, remove that much this."
     ]
   },
   "druidsurv:5DelayBloon": {
-    "NAME": "5 Delay Bloon",
+    "NAME": "(DEPRECATED) 5 Delay Bloon",
     "DESCRIPTIONS": [
       "In #b5 turns, it takes #b",
-      " damage. Whenever you receive attack damage from it, remove that much this."
+      " damage. Whenever you receive attack damage from it or it gains #yBlock, remove that much this."
     ]
   },
   "druidsurv:umDelayBloon": {
-    "NAME": "0 Delay Bloon",
+    "NAME": "(DEPRECATED?) null Delay Bloon",
     "DESCRIPTIONS": [
-      "At the start of it's turn, it takes #b",
+      "In #bnull turns, it takes #b",
       " damage. Whenever you receive attack damage from it, remove that much this."
     ]
   },
   "druidsurv:WeakBloonPower": {
     "NAME": "Weakening Gas",
     "DESCRIPTIONS": [
-      "When attacked, the attacker is #yWeakened."
+      "When attacked, the attacker is loses #b", ""
     ]
   },
   "druidsurv:GrowthGas": {
@@ -75,7 +75,7 @@
     ]
   },
   "druidsurv:Supported": {
-    "NAME": "Supported",
+    "NAME": "(DEPRECATED) Supported",
     "DESCRIPTIONS": [
       "Healing from The Druid's cards and powers is reduced by #b",
       "%."
@@ -84,22 +84,85 @@
   "druidsurv:ManaShield": {
     "NAME": "Mana Shield",
     "DESCRIPTIONS": [
-      "At the start of your turn, gain #b",
-      " Block. NL Blocked damage reduces your #yMana #yShield."
+      "At the end of your turn, gain #b",
+      " Block. NL #yDamage you #yBlock reduces your #yMana #yShield."
     ]
   },
   "druidsurv:FanClubBuff": {
-    "NAME": "Fan Club Buff",
+    "NAME": "(DEPRECATED) Fan Club Buff",
     "DESCRIPTIONS": [
       "#yDartkind attacks deal #b",
       " more damage."
     ]
   },
   "druidsurv:WizardStrength": {
-    "NAME": "Wizard Strength",
+    "NAME": "(DEPRECATED) Wizard Strength",
     "DESCRIPTIONS": [
       "Wizard Monkeys deal #b",
       " more damage."
+    ]
+  },
+  "druidsurv:SunShield": {
+    "NAME": "Sun Shield",
+    "DESCRIPTIONS": [
+      "Whenever you are attacked, deal #b",
+      " damage to the attacker and lose #b3 #ySun #yShield."
+    ]
+  },
+  "druidsurv:RedBloonPower": {
+    "NAME": "Red Bloon",
+    "DESCRIPTIONS": [
+      "In #b",
+      " turns, it takes #b",
+      " damage. Whenever you receive attack damage from it or it gains #yBlock, remove that much this."
+    ]
+  },
+  "druidsurv:BloontoniumPower": {
+    "NAME": "Bloontonium",
+    "DESCRIPTIONS": [
+      "Playing Bloons generates [druidsurv:BloontoniumIcon] NL Certain cards require spending [druidsurv:BloontoniumIcon] instead of [E]."
+    ]
+  },
+  "druidsurv:BloontoniumCachePower": {
+    "NAME": "Bloontonium Capacity UP",
+    "DESCRIPTIONS": [
+      "In #b",
+      " turns, it takes"
+    ]
+  },
+  "druidsurv:RubyMoxPower": {
+    "NAME": "Ruby Mox",
+    "DESCRIPTIONS": [
+      "In #b",
+      " turns, it takes"
+    ]
+  },
+  "druidsurv:BlueMoxPower": {
+    "NAME": "Sapphire Mox",
+    "DESCRIPTIONS": [
+      "In #b",
+      " turns, it takes"
+    ]
+  },
+  "Accuracy": {
+    "NAME": "Accuracy",
+    "DESCRIPTIONS": [
+      "#yShivs and #yWolfs deal #b",
+      " additional damage."
+    ]
+  },
+  "druidsurv:GreenMoxPower": {
+    "NAME": "Emerald Mox",
+    "DESCRIPTIONS": [
+      "In #b",
+      " turns, it takes"
+    ]
+  },
+  "druidsurv:NoLand": {
+    "NAME": "No Land",
+    "DESCRIPTIONS": [
+      "Lands are Unplayable for",
+      " turns."
     ]
   }
 }
